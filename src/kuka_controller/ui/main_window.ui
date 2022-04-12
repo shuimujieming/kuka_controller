@@ -1,0 +1,1047 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>MainWindowDesign</class>
+ <widget class="QMainWindow" name="MainWindowDesign">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>1020</width>
+    <height>900</height>
+   </rect>
+  </property>
+  <property name="windowTitle">
+   <string>KukaController</string>
+  </property>
+  <property name="windowIcon">
+   <iconset resource="../resources/images.qrc">
+    <normaloff>:/images/icon.png</normaloff>:/images/icon.png</iconset>
+  </property>
+  <property name="locale">
+   <locale language="English" country="Australia"/>
+  </property>
+  <widget class="QWidget" name="centralwidget">
+   <layout class="QVBoxLayout" name="verticalLayout_5">
+    <item>
+     <widget class="QTabWidget" name="tab_manager">
+      <property name="minimumSize">
+       <size>
+        <width>100</width>
+        <height>0</height>
+       </size>
+      </property>
+      <property name="locale">
+       <locale language="English" country="Australia"/>
+      </property>
+      <property name="currentIndex">
+       <number>0</number>
+      </property>
+      <widget class="QWidget" name="tab_kuka">
+       <attribute name="title">
+        <string>Kuka控制页</string>
+       </attribute>
+       <layout class="QGridLayout" name="gridLayout_8">
+        <item row="3" column="2" colspan="2">
+         <layout class="QGridLayout" name="gridLayout_4">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_4">
+            <property name="text">
+             <string>串口号：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1" colspan="2">
+           <widget class="QComboBox" name="cbPortName"/>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QPushButton" name="btnSearchPort">
+            <property name="text">
+             <string>搜索串口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QPushButton" name="btnOpenSerial">
+            <property name="text">
+             <string>打开串口</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QPushButton" name="btnStartGetSerial">
+            <property name="text">
+             <string>开始采集</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QPushButton" name="btnStopGetSerial">
+            <property name="text">
+             <string>停止采集</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="8" column="3">
+         <layout class="QGridLayout" name="gridLayout_2">
+          <item row="3" column="1">
+           <widget class="QPushButton" name="btnHandeye">
+            <property name="text">
+             <string>手眼标定</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QPushButton" name="btnCameraCali">
+            <property name="text">
+             <string>相机标定</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QPushButton" name="btnCloseDevice">
+            <property name="text">
+             <string>关闭相机</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="0">
+           <widget class="QPushButton" name="btnOpenDevice">
+            <property name="text">
+             <string>打开相机</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QPushButton" name="btnSaveImage">
+            <property name="text">
+             <string>保存图像</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QPushButton" name="pushButton">
+            <property name="text">
+             <string>目标识别</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QPushButton" name="pushButton_2">
+            <property name="text">
+             <string>模板匹配</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="1" column="0" colspan="2">
+         <layout class="QHBoxLayout" name="horizontalLayout_3">
+          <item>
+           <widget class="QLabel" name="label_15">
+            <property name="text">
+             <string>X：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RX"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_16">
+            <property name="text">
+             <string>Y：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RY"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_17">
+            <property name="text">
+             <string>Z：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RZ"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_18">
+            <property name="text">
+             <string>A：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RA"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_19">
+            <property name="text">
+             <string>B：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RB"/>
+          </item>
+          <item>
+           <widget class="QLabel" name="label_20">
+            <property name="text">
+             <string>C：</string>
+            </property>
+           </widget>
+          </item>
+          <item>
+           <widget class="QLineEdit" name="lineEdit_RC"/>
+          </item>
+         </layout>
+        </item>
+        <item row="0" column="0">
+         <widget class="QLabel" name="label_25">
+          <property name="text">
+           <string>Kuka机器人当前位姿：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="6" column="3">
+         <layout class="QGridLayout" name="gridLayout_6">
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_Fy"/>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEdit_Mz"/>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_12">
+            <property name="text">
+             <string>Mx：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_Fx"/>
+          </item>
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_9">
+            <property name="text">
+             <string>Fx：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_Fz"/>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEdit_Mx"/>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_13">
+            <property name="text">
+             <string>My：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_10">
+            <property name="text">
+             <string>Fy：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_11">
+            <property name="text">
+             <string>Fz：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEdit_My"/>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_14">
+            <property name="text">
+             <string>Mz：</string>
+            </property>
+           </widget>
+          </item>
+          <item row="6" column="1">
+           <spacer name="verticalSpacer_2">
+            <property name="orientation">
+             <enum>Qt::Vertical</enum>
+            </property>
+            <property name="sizeHint" stdset="0">
+             <size>
+              <width>20</width>
+              <height>40</height>
+             </size>
+            </property>
+           </spacer>
+          </item>
+         </layout>
+        </item>
+        <item row="5" column="3">
+         <widget class="QLabel" name="label_24">
+          <property name="text">
+           <string>力传感器数据：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="2" column="0" rowspan="5" colspan="2">
+         <widget class="QLabel" name="labelCamera">
+          <property name="sizePolicy">
+           <sizepolicy hsizetype="Minimum" vsizetype="Minimum">
+            <horstretch>0</horstretch>
+            <verstretch>0</verstretch>
+           </sizepolicy>
+          </property>
+          <property name="maximumSize">
+           <size>
+            <width>800</width>
+            <height>600</height>
+           </size>
+          </property>
+          <property name="frameShape">
+           <enum>QFrame::Box</enum>
+          </property>
+          <property name="frameShadow">
+           <enum>QFrame::Sunken</enum>
+          </property>
+          <property name="text">
+           <string/>
+          </property>
+         </widget>
+        </item>
+        <item row="1" column="2" colspan="2">
+         <widget class="QLabel" name="label_26">
+          <property name="text">
+           <string>力传感器串口：</string>
+          </property>
+         </widget>
+        </item>
+        <item row="8" column="0">
+         <layout class="QGridLayout" name="gridLayout_7">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_6">
+            <property name="minimumSize">
+             <size>
+              <width>20</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="text">
+             <string>X:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="lineEdit_X">
+            <property name="minimumSize">
+             <size>
+              <width>0</width>
+              <height>0</height>
+             </size>
+            </property>
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="2">
+           <widget class="QSlider" name="hSlider_X">
+            <property name="minimum">
+             <number>1000000000</number>
+            </property>
+            <property name="maximum">
+             <number>1500000000</number>
+            </property>
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="value">
+             <number>1000000000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0">
+           <widget class="QLabel" name="label_7">
+            <property name="text">
+             <string>Y:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="1">
+           <widget class="QLineEdit" name="lineEdit_Y">
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="2">
+           <widget class="QSlider" name="hSlider_Y">
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0">
+           <widget class="QLabel" name="label_8">
+            <property name="text">
+             <string>Z:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="1">
+           <widget class="QLineEdit" name="lineEdit_Z">
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="2">
+           <widget class="QSlider" name="hSlider_Z">
+            <property name="minimum">
+             <number>600000000</number>
+            </property>
+            <property name="maximum">
+             <number>1120000000</number>
+            </property>
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0">
+           <widget class="QLabel" name="label_21">
+            <property name="text">
+             <string>A:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="1">
+           <widget class="QLineEdit" name="lineEdit_A">
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="2">
+           <widget class="QSlider" name="hSlider_A">
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="0">
+           <widget class="QLabel" name="label_22">
+            <property name="text">
+             <string>B:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="1">
+           <widget class="QLineEdit" name="lineEdit_B">
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="4" column="2">
+           <widget class="QSlider" name="hSlider_B">
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="0">
+           <widget class="QLabel" name="label_23">
+            <property name="text">
+             <string>C:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="1">
+           <widget class="QLineEdit" name="lineEdit_C">
+            <property name="maximumSize">
+             <size>
+              <width>110</width>
+              <height>16777215</height>
+             </size>
+            </property>
+           </widget>
+          </item>
+          <item row="5" column="2">
+           <widget class="QSlider" name="hSlider_C">
+            <property name="singleStep">
+             <number>10000</number>
+            </property>
+            <property name="pageStep">
+             <number>10000</number>
+            </property>
+            <property name="tracking">
+             <bool>false</bool>
+            </property>
+            <property name="orientation">
+             <enum>Qt::Horizontal</enum>
+            </property>
+            <property name="invertedAppearance">
+             <bool>false</bool>
+            </property>
+            <property name="invertedControls">
+             <bool>true</bool>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+        <item row="8" column="1">
+         <layout class="QGridLayout" name="gridLayout_5">
+          <item row="0" column="0">
+           <widget class="QLabel" name="label_5">
+            <property name="text">
+             <string>端口号:</string>
+            </property>
+           </widget>
+          </item>
+          <item row="0" column="1">
+           <widget class="QLineEdit" name="line_port">
+            <property name="text">
+             <string>59152</string>
+            </property>
+           </widget>
+          </item>
+          <item row="1" column="0" colspan="2">
+           <widget class="QPushButton" name="btnOpenRobot">
+            <property name="text">
+             <string>打开机器人连接</string>
+            </property>
+           </widget>
+          </item>
+          <item row="2" column="0" colspan="2">
+           <widget class="QPushButton" name="btnCloseRobot">
+            <property name="text">
+             <string>断开机器人连接</string>
+            </property>
+           </widget>
+          </item>
+          <item row="3" column="0" colspan="2">
+           <widget class="QPushButton" name="btnSendPosition">
+            <property name="text">
+             <string>发送机器人目标位置</string>
+            </property>
+           </widget>
+          </item>
+         </layout>
+        </item>
+       </layout>
+      </widget>
+     </widget>
+    </item>
+   </layout>
+  </widget>
+  <widget class="QMenuBar" name="menubar">
+   <property name="geometry">
+    <rect>
+     <x>0</x>
+     <y>0</y>
+     <width>1020</width>
+     <height>28</height>
+    </rect>
+   </property>
+   <widget class="QMenu" name="menu_File">
+    <property name="title">
+     <string>选项</string>
+    </property>
+    <addaction name="separator"/>
+    <addaction name="actionAbout_Qt"/>
+    <addaction name="separator"/>
+    <addaction name="actionAbout"/>
+    <addaction name="action_Quit"/>
+   </widget>
+   <addaction name="menu_File"/>
+  </widget>
+  <widget class="QStatusBar" name="statusbar"/>
+  <action name="action_Quit">
+   <property name="text">
+    <string>&amp;Quit</string>
+   </property>
+   <property name="shortcut">
+    <string>Ctrl+Q</string>
+   </property>
+   <property name="shortcutContext">
+    <enum>Qt::ApplicationShortcut</enum>
+   </property>
+  </action>
+  <action name="actionAbout">
+   <property name="text">
+    <string>&amp;About</string>
+   </property>
+  </action>
+  <action name="actionAbout_Qt">
+   <property name="text">
+    <string>About &amp;Qt</string>
+   </property>
+  </action>
+ </widget>
+ <resources>
+  <include location="../resources/images.qrc"/>
+ </resources>
+ <connections>
+  <connection>
+   <sender>hSlider_Y</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderYvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>340</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1142</x>
+     <y>273</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSendPosition</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedSendPosition()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1025</x>
+     <y>556</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>818</x>
+     <y>479</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpenDevice</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedOpenDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>915</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>576</x>
+     <y>123</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hSlider_A</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderAvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>406</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>878</x>
+     <y>515</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hSlider_B</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderBvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>439</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1075</x>
+     <y>529</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_Z</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineZeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>936</x>
+     <y>374</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>796</x>
+     <y>403</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_A</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineAeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>890</x>
+     <y>407</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>791</x>
+     <y>435</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnStopGetSerial</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedStopGetSerialPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1116</x>
+     <y>613</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1080</x>
+     <y>756</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hSlider_Z</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderZvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>373</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1134</x>
+     <y>179</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_B</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineBeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>894</x>
+     <y>440</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>802</x>
+     <y>458</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSearchPort</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedSearchSerialPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1064</x>
+     <y>588</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>772</x>
+     <y>627</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCloseRobot</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedCloseRobot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1189</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1167</x>
+     <y>539</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnSaveImage</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedSaveImage()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>958</x>
+     <y>153</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>822</x>
+     <y>217</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnStartGetSerial</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedStartGetSerialPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1038</x>
+     <y>612</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1124</x>
+     <y>681</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpenSerial</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedOpenSerialPort()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1164</x>
+     <y>588</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1084</x>
+     <y>645</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_X</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineXeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>910</x>
+     <y>308</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>314</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hSlider_X</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderXvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>307</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1003</x>
+     <y>284</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_C</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineCeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>906</x>
+     <y>473</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>791</x>
+     <y>491</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnCloseDevice</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedCloseDevice()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1167</x>
+     <y>98</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>524</x>
+     <y>161</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>btnOpenRobot</sender>
+   <signal>clicked()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnBtnClickedOpenRobot()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1068</x>
+     <y>550</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>804</x>
+     <y>547</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>hSlider_C</sender>
+   <signal>valueChanged(int)</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnSliderCvalueChanged(int)</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>1184</x>
+     <y>472</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>1161</x>
+     <y>160</y>
+    </hint>
+   </hints>
+  </connection>
+  <connection>
+   <sender>lineEdit_Y</sender>
+   <signal>editingFinished()</signal>
+   <receiver>MainWindowDesign</receiver>
+   <slot>OnLineYeditingFinished()</slot>
+   <hints>
+    <hint type="sourcelabel">
+     <x>892</x>
+     <y>341</y>
+    </hint>
+    <hint type="destinationlabel">
+     <x>799</x>
+     <y>367</y>
+    </hint>
+   </hints>
+  </connection>
+ </connections>
+ <slots>
+  <slot>OnBtnClickedEnum()</slot>
+  <slot>OnBtnClickedOpenDevice()</slot>
+  <slot>OnBtnClickedCloseDevice()</slot>
+  <slot>OnBtnClickedSaveImage()</slot>
+  <slot>OnBtnClickedOpenRobot()</slot>
+  <slot>OnBtnClickedCloseRobot()</slot>
+  <slot>OnBtnClickedSendPosition()</slot>
+  <slot>OnSliderXvalueChanged(int)</slot>
+  <slot>OnSliderYvalueChanged(int)</slot>
+  <slot>OnSliderZvalueChanged(int)</slot>
+  <slot>OnSliderAvalueChanged(int)</slot>
+  <slot>OnSliderBvalueChanged(int)</slot>
+  <slot>OnSliderCvalueChanged(int)</slot>
+  <slot>OnLineXeditingFinished()</slot>
+  <slot>OnLineYeditingFinished()</slot>
+  <slot>OnLineZeditingFinished()</slot>
+  <slot>OnLineAeditingFinished()</slot>
+  <slot>OnLineBeditingFinished()</slot>
+  <slot>OnLineCeditingFinished()</slot>
+  <slot>OnBtnClickedSearchSerialPort()</slot>
+  <slot>OnBtnClickedOpenSerialPort()</slot>
+  <slot>OnBtnClickedStartGetSerialPort()</slot>
+  <slot>OnBtnClickedStopGetSerialPort()</slot>
+ </slots>
+</ui>

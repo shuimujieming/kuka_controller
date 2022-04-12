@@ -1,0 +1,14 @@
+-I/home/shuimujieming/catkin_ws/devel/include
+-I/home/shuimujieming/catkin_ws/src/kuka_controller/include
+-I/opt/ros/melodic/include
+-I/opt/ros/melodic/share/xmlrpcpp/cmake/../../../include/xmlrpcpp
+-I/usr/include
+-I/home/shuimujieming/catkin_ws/src/kuka_controller
+-I/home/shuimujieming/catkin_ws/build/kuka_controller
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_BUILD_SHARED_LIBS=1
+-DROS_PACKAGE_NAME="kuka_controller"
+-DROSCONSOLE_BACKEND_LOG4CXX
+-o
+/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_PixelType.cpp
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/PixelType.h
