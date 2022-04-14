@@ -121,20 +121,6 @@ ros/message_operations.h
 -
 
 /home/shuimujieming/catkin_ws/devel/include/kuka_controller/KukaControlResponse.h
-string
--
-vector
--
-map
--
-ros/types.h
--
-ros/serialization.h
--
-ros/builtin_message_traits.h
--
-ros/message_operations.h
--
 
 /home/shuimujieming/catkin_ws/devel/include/kuka_controller/PositionData.h
 string

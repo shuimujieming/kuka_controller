@@ -94,6 +94,7 @@ target_link_libraries(kuka_controller ${OpenCV_LIBS})
 #include_directories(${MVCAM_SDK_PATH}/include)
 #link_directories(${MVCAM_SDK_PATH}/bin /
 #    ${MVCAM_COMMON_RUNENV}/64)       # 指定海康sdk的lib目录
+#test
 
 target_link_libraries(kuka_controller MvCameraControl)
 
