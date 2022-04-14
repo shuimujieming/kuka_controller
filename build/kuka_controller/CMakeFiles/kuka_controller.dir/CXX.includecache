@@ -4418,10 +4418,6 @@ qcombobox.h
 qgridlayout.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qgridlayout.h
 
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
-qboxlayout.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qboxlayout.h
-
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 qheaderview.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qheaderview.h
@@ -4457,10 +4453,6 @@ qpushbutton.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
 qslider.h
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/qslider.h
-
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
-qlayoutitem.h
-/usr/include/x86_64-linux-gnu/qt5/QtWidgets/qlayoutitem.h
 
 /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 qstatusbar.h
@@ -6163,8 +6155,6 @@ QtWidgets/QComboBox
 -
 QtWidgets/QGridLayout
 -
-QtWidgets/QHBoxLayout
--
 QtWidgets/QHeaderView
 -
 QtWidgets/QLabel
@@ -6180,8 +6170,6 @@ QtWidgets/QMenuBar
 QtWidgets/QPushButton
 -
 QtWidgets/QSlider
--
-QtWidgets/QSpacerItem
 -
 QtWidgets/QStatusBar
 -

@@ -64,6 +64,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 
      controlnode.init();
      controlnode.getTCPPtr(myRoboTCP);
+
      //信号槽初始化
      ConnectInit();
 }
@@ -72,9 +73,9 @@ MainWindow::~MainWindow() {}
 void MainWindow::ConnectInit()
 {
     //查看当前版本qt库
-    connect(ui.actionAbout_Qt, SIGNAL(triggered(bool)), qApp, SLOT(aboutQt())); // qApp is a global variable for the application
+    //connect(ui.actionAbout_Qt, SIGNAL(triggered(bool)), qApp, SLOT(aboutQt())); // qApp is a global variable for the application
     //关联机械臂控制节点槽函数
-    connect(&controlnode, SIGNAL(sendRobot(float,float,float,float,float,float)), this, SLOT(ctrlRobot(float,float,float,float,float,float)));
+    //connect(&controlnode, SIGNAL(sendRobot(float,float,float,float,float,float)), this, SLOT(ctrlRobot(float,float,float,float,float,float)));
     //数据更新显示
     connect(timerShow, SIGNAL(timeout()), this, SLOT(OnUIShowUpdate()));
     //数据更新FPS
@@ -122,6 +123,10 @@ void MainWindow::UiInit()
         ui.hSlider_C->setMaximum(180 * 1000000);
         ui.hSlider_C->setMinimum(-180 * 1000000);
     }
+
+     //图像处理按钮
+     ui.btnModelMatch->setEnabled(false);
+     ui.btnGoalDIst->setEnabled(false);
 }
 void MainWindow::closeEvent(QCloseEvent *event)
 {
@@ -560,13 +565,14 @@ void MainWindow::OnBtnClickedSaveImage()
 //显示图片槽函数
 void MainWindow::display_myImage(const cv::Mat* imagePtr)
 {
+    //转换图像格式BGR2RGB
     cv::Mat Image_RGB;
     cv::cvtColor(*imagePtr, Image_RGB, CV_BGR2RGB);
     QImage QmyImage;
     //转换成QT图像格式
     QmyImage = QImage((const unsigned char*)(Image_RGB.data), Image_RGB.cols, Image_RGB.rows, QImage::Format_RGB888);
-    //将图片缩小为显示窗口大小
-    QmyImage = (QmyImage).scaled(ui.labelCamera->size(), Qt::IgnoreAspectRatio, Qt::SmoothTransformation);
+    //将图片等比例缩放为显示窗口大小
+    QmyImage = (QmyImage).scaled(ui.labelCamera->size(), Qt::KeepAspectRatio, Qt::SmoothTransformation);
     //显示在控件上
     ui.labelCamera->setPixmap(QPixmap::fromImage(QmyImage));
 }
@@ -593,8 +599,8 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     {
         if (myserialPort->Open(ui.cbPortName->currentText()) == 0)
         {
-            //成功打开后关联读取数据槽函数
-            //connect(myserialPort->MySerial, SIGNAL(readyRead()), this, SLOT(OnSerialReadData()));
+            //打开串口线程
+            //提供串口指针
             myThreadSerial->getSerialPtr(myserialPort);
             myThreadSerial->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
             myThreadSerial->getFpsPtr(&UpdateFPS);
@@ -612,6 +618,7 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     }
     else
     {
+        //关闭串口和串口数据线程
         myserialPort->Close();
         myThreadSerial->terminate();
 
@@ -632,13 +639,13 @@ void MainWindow::OnBtnClickedStopGetSerialPort()
     myserialPort->stopGrab();
     UpdateFpsTimer->stop();
 }
-
+//数据FPS更新显示
 void MainWindow::OnUpdateDataFps()
 {
     UpdateFPS = 0;
     cout<<"ForceData Update Fps is : "<<UpdateFPS << endl;
 }
-
+//更新UI界面机器人数据
 void MainWindow::OnUIShowUpdate()
 {
     ui.lineEdit_Fx->setText(QByteArray::fromStdString(to_string(Fx)));

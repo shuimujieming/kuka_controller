@@ -17,7 +17,6 @@ MyThreadTCP::~MyThreadTCP()
 }
 
 void MyThreadTCP::getTCPPtr(MyTCP* tcp)
-
 {
     tcpPtr = tcp;
 }

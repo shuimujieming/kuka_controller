@@ -834,7 +834,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
-kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
@@ -844,7 +843,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
-kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
@@ -2464,7 +2462,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
-kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
@@ -2474,7 +2471,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
-kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout
@@ -3053,7 +3049,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/inclu
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QButtonGroup
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QComboBox
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QGridLayout
-kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHBoxLayout
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QHeaderView
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLabel
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QLineEdit
@@ -3063,7 +3058,6 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/inclu
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QMessageBox
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QPushButton
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSlider
-kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QSpacerItem
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QStatusBar
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QTabWidget
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /usr/include/x86_64-linux-gnu/qt5/QtWidgets/QVBoxLayout

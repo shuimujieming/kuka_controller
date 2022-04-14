@@ -12,10 +12,6 @@
 #include <kuka_controller/positionnode.h>
 
 
-/*****************************************************************************
-** Implementation
-*****************************************************************************/
-
 PositiondataNode::PositiondataNode(int argc, char** argv ) :
     init_argc(argc),
     init_argv(argv)

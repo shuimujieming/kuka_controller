@@ -8,12 +8,7 @@
 #include <std_msgs/String.h>
 
 #include <sstream>
-
 #include <kuka_controller/controlnode.h>
-
-/*****************************************************************************
-** Implementation
-*****************************************************************************/
 
 ControlNode::ControlNode(int argc, char** argv ) :
 	init_argc(argc),
@@ -36,8 +31,26 @@ void ControlNode::getTCPPtr(MyTCP* tcp)
 bool ControlNode::senddata(kuka_controller::KukaControl::Request  &req,
          kuka_controller::KukaControl::Response &res)
 {
-  res.ret = tcpPtr->CtrlRobot(req.x,req.y,req.z,req.a,req.b,req.c);
-  return true;
+  if(
+      (req.x > 1500 || req.x < 1000) ||
+      (req.y > 400  || req.y < -550) ||
+      (req.z > 1120 || req.z < 600)  ||
+      (req.a > 150 || req.a < -150)  ||
+      (req.b > 30 || req.b < -50)    ||
+      (req.c > 180 || req.c < -180)
+    )
+  {
+      res.ret = -2;
+      ROS_INFO("Received a invalid value!");
+      return true;
+  }
+  else
+  {
+      res.ret = tcpPtr->CtrlRobot(req.x,req.y,req.z,req.a,req.b,req.c);
+      ROS_INFO("Received success! %f %f %f %f %f %f",req.x,req.y,req.z,req.a,req.b,req.c);
+      return true;
+  }
+
 }
 
 bool ControlNode::init() {

@@ -16,7 +16,6 @@
 #include <QtWidgets/QButtonGroup>
 #include <QtWidgets/QComboBox>
 #include <QtWidgets/QGridLayout>
-#include <QtWidgets/QHBoxLayout>
 #include <QtWidgets/QHeaderView>
 #include <QtWidgets/QLabel>
 #include <QtWidgets/QLineEdit>
@@ -25,7 +24,6 @@
 #include <QtWidgets/QMenuBar>
 #include <QtWidgets/QPushButton>
 #include <QtWidgets/QSlider>
-#include <QtWidgets/QSpacerItem>
 #include <QtWidgets/QStatusBar>
 #include <QtWidgets/QTabWidget>
 #include <QtWidgets/QVBoxLayout>
@@ -38,57 +36,18 @@ class Ui_MainWindowDesign
 public:
     QAction *action_Quit;
     QAction *actionAbout;
-    QAction *actionAbout_Qt;
     QWidget *centralwidget;
     QVBoxLayout *verticalLayout_5;
     QTabWidget *tab_manager;
     QWidget *tab_kuka;
-    QGridLayout *gridLayout_8;
+    QGridLayout *gridLayout_3;
     QGridLayout *gridLayout_4;
     QLabel *label_4;
-    QComboBox *cbPortName;
-    QPushButton *btnSearchPort;
     QPushButton *btnOpenSerial;
-    QPushButton *btnStartGetSerial;
     QPushButton *btnStopGetSerial;
-    QGridLayout *gridLayout_2;
-    QPushButton *btnHandeye;
-    QPushButton *btnCameraCali;
-    QPushButton *btnCloseDevice;
-    QPushButton *btnOpenDevice;
-    QPushButton *btnSaveImage;
-    QPushButton *pushButton;
-    QPushButton *pushButton_2;
-    QHBoxLayout *horizontalLayout_3;
-    QLabel *label_15;
-    QLineEdit *lineEdit_RX;
-    QLabel *label_16;
-    QLineEdit *lineEdit_RY;
-    QLabel *label_17;
-    QLineEdit *lineEdit_RZ;
-    QLabel *label_18;
-    QLineEdit *lineEdit_RA;
-    QLabel *label_19;
-    QLineEdit *lineEdit_RB;
-    QLabel *label_20;
-    QLineEdit *lineEdit_RC;
-    QLabel *label_25;
-    QGridLayout *gridLayout_6;
-    QLineEdit *lineEdit_Fy;
-    QLineEdit *lineEdit_Mz;
-    QLabel *label_12;
-    QLineEdit *lineEdit_Fx;
-    QLabel *label_9;
-    QLineEdit *lineEdit_Fz;
-    QLineEdit *lineEdit_Mx;
-    QLabel *label_13;
-    QLabel *label_10;
-    QLabel *label_11;
-    QLineEdit *lineEdit_My;
-    QLabel *label_14;
-    QSpacerItem *verticalSpacer_2;
-    QLabel *label_24;
-    QLabel *labelCamera;
+    QPushButton *btnSearchPort;
+    QPushButton *btnStartGetSerial;
+    QComboBox *cbPortName;
     QLabel *label_26;
     QGridLayout *gridLayout_7;
     QLabel *label_6;
@@ -115,6 +74,43 @@ public:
     QPushButton *btnOpenRobot;
     QPushButton *btnCloseRobot;
     QPushButton *btnSendPosition;
+    QGridLayout *gridLayout_2;
+    QPushButton *btnHandeye;
+    QPushButton *btnCameraCali;
+    QPushButton *btnCloseDevice;
+    QPushButton *btnOpenDevice;
+    QPushButton *btnSaveImage;
+    QPushButton *btnGoalDIst;
+    QPushButton *btnModelMatch;
+    QLabel *labelCamera;
+    QGridLayout *gridLayout;
+    QLabel *label_16;
+    QLabel *label_18;
+    QLineEdit *lineEdit_RA;
+    QLabel *label_20;
+    QLineEdit *lineEdit_RY;
+    QLineEdit *lineEdit_RC;
+    QLineEdit *lineEdit_RX;
+    QLineEdit *lineEdit_RZ;
+    QLabel *label_19;
+    QLabel *label_17;
+    QLineEdit *lineEdit_RB;
+    QLabel *label_15;
+    QLabel *label_25;
+    QGridLayout *gridLayout_6;
+    QLineEdit *lineEdit_Fz;
+    QLineEdit *lineEdit_Mx;
+    QLabel *label_12;
+    QLineEdit *lineEdit_Mz;
+    QLabel *label_14;
+    QLineEdit *lineEdit_Fy;
+    QLabel *label_11;
+    QLineEdit *lineEdit_My;
+    QLabel *label_9;
+    QLabel *label_13;
+    QLabel *label_24;
+    QLabel *label_10;
+    QLineEdit *lineEdit_Fx;
     QMenuBar *menubar;
     QMenu *menu_File;
     QStatusBar *statusbar;
@@ -133,8 +129,6 @@ public:
         action_Quit->setShortcutContext(Qt::ApplicationShortcut);
         actionAbout = new QAction(MainWindowDesign);
         actionAbout->setObjectName(QStringLiteral("actionAbout"));
-        actionAbout_Qt = new QAction(MainWindowDesign);
-        actionAbout_Qt->setObjectName(QStringLiteral("actionAbout_Qt"));
         centralwidget = new QWidget(MainWindowDesign);
         centralwidget->setObjectName(QStringLiteral("centralwidget"));
         verticalLayout_5 = new QVBoxLayout(centralwidget);
@@ -145,244 +139,47 @@ public:
         tab_manager->setLocale(QLocale(QLocale::English, QLocale::Australia));
         tab_kuka = new QWidget();
         tab_kuka->setObjectName(QStringLiteral("tab_kuka"));
-        gridLayout_8 = new QGridLayout(tab_kuka);
-        gridLayout_8->setObjectName(QStringLiteral("gridLayout_8"));
+        gridLayout_3 = new QGridLayout(tab_kuka);
+        gridLayout_3->setObjectName(QStringLiteral("gridLayout_3"));
         gridLayout_4 = new QGridLayout();
         gridLayout_4->setObjectName(QStringLiteral("gridLayout_4"));
         label_4 = new QLabel(tab_kuka);
         label_4->setObjectName(QStringLiteral("label_4"));
 
-        gridLayout_4->addWidget(label_4, 0, 0, 1, 1);
-
-        cbPortName = new QComboBox(tab_kuka);
-        cbPortName->setObjectName(QStringLiteral("cbPortName"));
-
-        gridLayout_4->addWidget(cbPortName, 0, 1, 1, 2);
-
-        btnSearchPort = new QPushButton(tab_kuka);
-        btnSearchPort->setObjectName(QStringLiteral("btnSearchPort"));
-
-        gridLayout_4->addWidget(btnSearchPort, 1, 0, 1, 2);
+        gridLayout_4->addWidget(label_4, 1, 0, 1, 1);
 
         btnOpenSerial = new QPushButton(tab_kuka);
         btnOpenSerial->setObjectName(QStringLiteral("btnOpenSerial"));
 
-        gridLayout_4->addWidget(btnOpenSerial, 1, 2, 1, 1);
-
-        btnStartGetSerial = new QPushButton(tab_kuka);
-        btnStartGetSerial->setObjectName(QStringLiteral("btnStartGetSerial"));
-
-        gridLayout_4->addWidget(btnStartGetSerial, 2, 0, 1, 2);
+        gridLayout_4->addWidget(btnOpenSerial, 2, 2, 1, 1);
 
         btnStopGetSerial = new QPushButton(tab_kuka);
         btnStopGetSerial->setObjectName(QStringLiteral("btnStopGetSerial"));
 
-        gridLayout_4->addWidget(btnStopGetSerial, 2, 2, 1, 1);
+        gridLayout_4->addWidget(btnStopGetSerial, 3, 2, 1, 1);
 
+        btnSearchPort = new QPushButton(tab_kuka);
+        btnSearchPort->setObjectName(QStringLiteral("btnSearchPort"));
 
-        gridLayout_8->addLayout(gridLayout_4, 3, 2, 1, 2);
+        gridLayout_4->addWidget(btnSearchPort, 2, 0, 1, 1);
 
-        gridLayout_2 = new QGridLayout();
-        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
-        btnHandeye = new QPushButton(tab_kuka);
-        btnHandeye->setObjectName(QStringLiteral("btnHandeye"));
+        btnStartGetSerial = new QPushButton(tab_kuka);
+        btnStartGetSerial->setObjectName(QStringLiteral("btnStartGetSerial"));
 
-        gridLayout_2->addWidget(btnHandeye, 3, 1, 1, 1);
+        gridLayout_4->addWidget(btnStartGetSerial, 3, 0, 1, 1);
 
-        btnCameraCali = new QPushButton(tab_kuka);
-        btnCameraCali->setObjectName(QStringLiteral("btnCameraCali"));
+        cbPortName = new QComboBox(tab_kuka);
+        cbPortName->setObjectName(QStringLiteral("cbPortName"));
 
-        gridLayout_2->addWidget(btnCameraCali, 3, 0, 1, 1);
-
-        btnCloseDevice = new QPushButton(tab_kuka);
-        btnCloseDevice->setObjectName(QStringLiteral("btnCloseDevice"));
-
-        gridLayout_2->addWidget(btnCloseDevice, 0, 1, 1, 1);
-
-        btnOpenDevice = new QPushButton(tab_kuka);
-        btnOpenDevice->setObjectName(QStringLiteral("btnOpenDevice"));
-
-        gridLayout_2->addWidget(btnOpenDevice, 0, 0, 1, 1);
-
-        btnSaveImage = new QPushButton(tab_kuka);
-        btnSaveImage->setObjectName(QStringLiteral("btnSaveImage"));
-
-        gridLayout_2->addWidget(btnSaveImage, 1, 0, 1, 2);
-
-        pushButton = new QPushButton(tab_kuka);
-        pushButton->setObjectName(QStringLiteral("pushButton"));
-
-        gridLayout_2->addWidget(pushButton, 2, 1, 1, 1);
-
-        pushButton_2 = new QPushButton(tab_kuka);
-        pushButton_2->setObjectName(QStringLiteral("pushButton_2"));
-
-        gridLayout_2->addWidget(pushButton_2, 2, 0, 1, 1);
-
-
-        gridLayout_8->addLayout(gridLayout_2, 8, 3, 1, 1);
-
-        horizontalLayout_3 = new QHBoxLayout();
-        horizontalLayout_3->setObjectName(QStringLiteral("horizontalLayout_3"));
-        label_15 = new QLabel(tab_kuka);
-        label_15->setObjectName(QStringLiteral("label_15"));
-
-        horizontalLayout_3->addWidget(label_15);
-
-        lineEdit_RX = new QLineEdit(tab_kuka);
-        lineEdit_RX->setObjectName(QStringLiteral("lineEdit_RX"));
-
-        horizontalLayout_3->addWidget(lineEdit_RX);
-
-        label_16 = new QLabel(tab_kuka);
-        label_16->setObjectName(QStringLiteral("label_16"));
-
-        horizontalLayout_3->addWidget(label_16);
-
-        lineEdit_RY = new QLineEdit(tab_kuka);
-        lineEdit_RY->setObjectName(QStringLiteral("lineEdit_RY"));
-
-        horizontalLayout_3->addWidget(lineEdit_RY);
-
-        label_17 = new QLabel(tab_kuka);
-        label_17->setObjectName(QStringLiteral("label_17"));
-
-        horizontalLayout_3->addWidget(label_17);
-
-        lineEdit_RZ = new QLineEdit(tab_kuka);
-        lineEdit_RZ->setObjectName(QStringLiteral("lineEdit_RZ"));
-
-        horizontalLayout_3->addWidget(lineEdit_RZ);
-
-        label_18 = new QLabel(tab_kuka);
-        label_18->setObjectName(QStringLiteral("label_18"));
-
-        horizontalLayout_3->addWidget(label_18);
-
-        lineEdit_RA = new QLineEdit(tab_kuka);
-        lineEdit_RA->setObjectName(QStringLiteral("lineEdit_RA"));
-
-        horizontalLayout_3->addWidget(lineEdit_RA);
-
-        label_19 = new QLabel(tab_kuka);
-        label_19->setObjectName(QStringLiteral("label_19"));
-
-        horizontalLayout_3->addWidget(label_19);
-
-        lineEdit_RB = new QLineEdit(tab_kuka);
-        lineEdit_RB->setObjectName(QStringLiteral("lineEdit_RB"));
-
-        horizontalLayout_3->addWidget(lineEdit_RB);
-
-        label_20 = new QLabel(tab_kuka);
-        label_20->setObjectName(QStringLiteral("label_20"));
-
-        horizontalLayout_3->addWidget(label_20);
-
-        lineEdit_RC = new QLineEdit(tab_kuka);
-        lineEdit_RC->setObjectName(QStringLiteral("lineEdit_RC"));
-
-        horizontalLayout_3->addWidget(lineEdit_RC);
-
-
-        gridLayout_8->addLayout(horizontalLayout_3, 1, 0, 1, 2);
-
-        label_25 = new QLabel(tab_kuka);
-        label_25->setObjectName(QStringLiteral("label_25"));
-
-        gridLayout_8->addWidget(label_25, 0, 0, 1, 1);
-
-        gridLayout_6 = new QGridLayout();
-        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
-        lineEdit_Fy = new QLineEdit(tab_kuka);
-        lineEdit_Fy->setObjectName(QStringLiteral("lineEdit_Fy"));
-
-        gridLayout_6->addWidget(lineEdit_Fy, 1, 1, 1, 1);
-
-        lineEdit_Mz = new QLineEdit(tab_kuka);
-        lineEdit_Mz->setObjectName(QStringLiteral("lineEdit_Mz"));
-
-        gridLayout_6->addWidget(lineEdit_Mz, 5, 1, 1, 1);
-
-        label_12 = new QLabel(tab_kuka);
-        label_12->setObjectName(QStringLiteral("label_12"));
-
-        gridLayout_6->addWidget(label_12, 3, 0, 1, 1);
-
-        lineEdit_Fx = new QLineEdit(tab_kuka);
-        lineEdit_Fx->setObjectName(QStringLiteral("lineEdit_Fx"));
-
-        gridLayout_6->addWidget(lineEdit_Fx, 0, 1, 1, 1);
-
-        label_9 = new QLabel(tab_kuka);
-        label_9->setObjectName(QStringLiteral("label_9"));
-
-        gridLayout_6->addWidget(label_9, 0, 0, 1, 1);
-
-        lineEdit_Fz = new QLineEdit(tab_kuka);
-        lineEdit_Fz->setObjectName(QStringLiteral("lineEdit_Fz"));
-
-        gridLayout_6->addWidget(lineEdit_Fz, 2, 1, 1, 1);
-
-        lineEdit_Mx = new QLineEdit(tab_kuka);
-        lineEdit_Mx->setObjectName(QStringLiteral("lineEdit_Mx"));
-
-        gridLayout_6->addWidget(lineEdit_Mx, 3, 1, 1, 1);
-
-        label_13 = new QLabel(tab_kuka);
-        label_13->setObjectName(QStringLiteral("label_13"));
-
-        gridLayout_6->addWidget(label_13, 4, 0, 1, 1);
-
-        label_10 = new QLabel(tab_kuka);
-        label_10->setObjectName(QStringLiteral("label_10"));
-
-        gridLayout_6->addWidget(label_10, 1, 0, 1, 1);
-
-        label_11 = new QLabel(tab_kuka);
-        label_11->setObjectName(QStringLiteral("label_11"));
-
-        gridLayout_6->addWidget(label_11, 2, 0, 1, 1);
-
-        lineEdit_My = new QLineEdit(tab_kuka);
-        lineEdit_My->setObjectName(QStringLiteral("lineEdit_My"));
-
-        gridLayout_6->addWidget(lineEdit_My, 4, 1, 1, 1);
-
-        label_14 = new QLabel(tab_kuka);
-        label_14->setObjectName(QStringLiteral("label_14"));
-
-        gridLayout_6->addWidget(label_14, 5, 0, 1, 1);
-
-        verticalSpacer_2 = new QSpacerItem(20, 40, QSizePolicy::Minimum, QSizePolicy::Expanding);
-
-        gridLayout_6->addItem(verticalSpacer_2, 6, 1, 1, 1);
-
-
-        gridLayout_8->addLayout(gridLayout_6, 6, 3, 1, 1);
-
-        label_24 = new QLabel(tab_kuka);
-        label_24->setObjectName(QStringLiteral("label_24"));
-
-        gridLayout_8->addWidget(label_24, 5, 3, 1, 1);
-
-        labelCamera = new QLabel(tab_kuka);
-        labelCamera->setObjectName(QStringLiteral("labelCamera"));
-        QSizePolicy sizePolicy(QSizePolicy::Minimum, QSizePolicy::Minimum);
-        sizePolicy.setHorizontalStretch(0);
-        sizePolicy.setVerticalStretch(0);
-        sizePolicy.setHeightForWidth(labelCamera->sizePolicy().hasHeightForWidth());
-        labelCamera->setSizePolicy(sizePolicy);
-        labelCamera->setMaximumSize(QSize(800, 600));
-        labelCamera->setFrameShape(QFrame::Box);
-        labelCamera->setFrameShadow(QFrame::Sunken);
-
-        gridLayout_8->addWidget(labelCamera, 2, 0, 5, 2);
+        gridLayout_4->addWidget(cbPortName, 1, 2, 1, 1);
 
         label_26 = new QLabel(tab_kuka);
         label_26->setObjectName(QStringLiteral("label_26"));
 
-        gridLayout_8->addWidget(label_26, 1, 2, 1, 2);
+        gridLayout_4->addWidget(label_26, 0, 0, 1, 1);
+
+
+        gridLayout_3->addLayout(gridLayout_4, 0, 2, 1, 1);
 
         gridLayout_7 = new QGridLayout();
         gridLayout_7->setObjectName(QStringLiteral("gridLayout_7"));
@@ -521,7 +318,7 @@ public:
         gridLayout_7->addWidget(hSlider_C, 5, 2, 1, 1);
 
 
-        gridLayout_8->addLayout(gridLayout_7, 8, 0, 1, 1);
+        gridLayout_3->addLayout(gridLayout_7, 4, 0, 1, 1);
 
         gridLayout_5 = new QGridLayout();
         gridLayout_5->setObjectName(QStringLiteral("gridLayout_5"));
@@ -551,7 +348,194 @@ public:
         gridLayout_5->addWidget(btnSendPosition, 3, 0, 1, 2);
 
 
-        gridLayout_8->addLayout(gridLayout_5, 8, 1, 1, 1);
+        gridLayout_3->addLayout(gridLayout_5, 4, 1, 1, 1);
+
+        gridLayout_2 = new QGridLayout();
+        gridLayout_2->setObjectName(QStringLiteral("gridLayout_2"));
+        btnHandeye = new QPushButton(tab_kuka);
+        btnHandeye->setObjectName(QStringLiteral("btnHandeye"));
+
+        gridLayout_2->addWidget(btnHandeye, 3, 1, 1, 1);
+
+        btnCameraCali = new QPushButton(tab_kuka);
+        btnCameraCali->setObjectName(QStringLiteral("btnCameraCali"));
+
+        gridLayout_2->addWidget(btnCameraCali, 3, 0, 1, 1);
+
+        btnCloseDevice = new QPushButton(tab_kuka);
+        btnCloseDevice->setObjectName(QStringLiteral("btnCloseDevice"));
+
+        gridLayout_2->addWidget(btnCloseDevice, 0, 1, 1, 1);
+
+        btnOpenDevice = new QPushButton(tab_kuka);
+        btnOpenDevice->setObjectName(QStringLiteral("btnOpenDevice"));
+
+        gridLayout_2->addWidget(btnOpenDevice, 0, 0, 1, 1);
+
+        btnSaveImage = new QPushButton(tab_kuka);
+        btnSaveImage->setObjectName(QStringLiteral("btnSaveImage"));
+
+        gridLayout_2->addWidget(btnSaveImage, 1, 0, 1, 2);
+
+        btnGoalDIst = new QPushButton(tab_kuka);
+        btnGoalDIst->setObjectName(QStringLiteral("btnGoalDIst"));
+
+        gridLayout_2->addWidget(btnGoalDIst, 2, 1, 1, 1);
+
+        btnModelMatch = new QPushButton(tab_kuka);
+        btnModelMatch->setObjectName(QStringLiteral("btnModelMatch"));
+
+        gridLayout_2->addWidget(btnModelMatch, 2, 0, 1, 1);
+
+
+        gridLayout_3->addLayout(gridLayout_2, 4, 2, 1, 1);
+
+        labelCamera = new QLabel(tab_kuka);
+        labelCamera->setObjectName(QStringLiteral("labelCamera"));
+        labelCamera->setFrameShape(QFrame::Box);
+        labelCamera->setFrameShadow(QFrame::Sunken);
+
+        gridLayout_3->addWidget(labelCamera, 0, 0, 4, 2);
+
+        gridLayout = new QGridLayout();
+        gridLayout->setObjectName(QStringLiteral("gridLayout"));
+        label_16 = new QLabel(tab_kuka);
+        label_16->setObjectName(QStringLiteral("label_16"));
+
+        gridLayout->addWidget(label_16, 2, 0, 1, 1);
+
+        label_18 = new QLabel(tab_kuka);
+        label_18->setObjectName(QStringLiteral("label_18"));
+
+        gridLayout->addWidget(label_18, 4, 0, 1, 1);
+
+        lineEdit_RA = new QLineEdit(tab_kuka);
+        lineEdit_RA->setObjectName(QStringLiteral("lineEdit_RA"));
+
+        gridLayout->addWidget(lineEdit_RA, 4, 1, 1, 1);
+
+        label_20 = new QLabel(tab_kuka);
+        label_20->setObjectName(QStringLiteral("label_20"));
+
+        gridLayout->addWidget(label_20, 6, 0, 1, 1);
+
+        lineEdit_RY = new QLineEdit(tab_kuka);
+        lineEdit_RY->setObjectName(QStringLiteral("lineEdit_RY"));
+
+        gridLayout->addWidget(lineEdit_RY, 2, 1, 1, 1);
+
+        lineEdit_RC = new QLineEdit(tab_kuka);
+        lineEdit_RC->setObjectName(QStringLiteral("lineEdit_RC"));
+
+        gridLayout->addWidget(lineEdit_RC, 6, 1, 1, 1);
+
+        lineEdit_RX = new QLineEdit(tab_kuka);
+        lineEdit_RX->setObjectName(QStringLiteral("lineEdit_RX"));
+
+        gridLayout->addWidget(lineEdit_RX, 1, 1, 1, 1);
+
+        lineEdit_RZ = new QLineEdit(tab_kuka);
+        lineEdit_RZ->setObjectName(QStringLiteral("lineEdit_RZ"));
+
+        gridLayout->addWidget(lineEdit_RZ, 3, 1, 1, 1);
+
+        label_19 = new QLabel(tab_kuka);
+        label_19->setObjectName(QStringLiteral("label_19"));
+
+        gridLayout->addWidget(label_19, 5, 0, 1, 1);
+
+        label_17 = new QLabel(tab_kuka);
+        label_17->setObjectName(QStringLiteral("label_17"));
+
+        gridLayout->addWidget(label_17, 3, 0, 1, 1);
+
+        lineEdit_RB = new QLineEdit(tab_kuka);
+        lineEdit_RB->setObjectName(QStringLiteral("lineEdit_RB"));
+
+        gridLayout->addWidget(lineEdit_RB, 5, 1, 1, 1);
+
+        label_15 = new QLabel(tab_kuka);
+        label_15->setObjectName(QStringLiteral("label_15"));
+
+        gridLayout->addWidget(label_15, 1, 0, 1, 1);
+
+        label_25 = new QLabel(tab_kuka);
+        label_25->setObjectName(QStringLiteral("label_25"));
+
+        gridLayout->addWidget(label_25, 0, 0, 1, 1);
+
+
+        gridLayout_3->addLayout(gridLayout, 3, 2, 1, 1);
+
+        gridLayout_6 = new QGridLayout();
+        gridLayout_6->setObjectName(QStringLiteral("gridLayout_6"));
+        lineEdit_Fz = new QLineEdit(tab_kuka);
+        lineEdit_Fz->setObjectName(QStringLiteral("lineEdit_Fz"));
+
+        gridLayout_6->addWidget(lineEdit_Fz, 3, 1, 1, 1);
+
+        lineEdit_Mx = new QLineEdit(tab_kuka);
+        lineEdit_Mx->setObjectName(QStringLiteral("lineEdit_Mx"));
+
+        gridLayout_6->addWidget(lineEdit_Mx, 4, 1, 1, 1);
+
+        label_12 = new QLabel(tab_kuka);
+        label_12->setObjectName(QStringLiteral("label_12"));
+
+        gridLayout_6->addWidget(label_12, 4, 0, 1, 1);
+
+        lineEdit_Mz = new QLineEdit(tab_kuka);
+        lineEdit_Mz->setObjectName(QStringLiteral("lineEdit_Mz"));
+
+        gridLayout_6->addWidget(lineEdit_Mz, 6, 1, 1, 1);
+
+        label_14 = new QLabel(tab_kuka);
+        label_14->setObjectName(QStringLiteral("label_14"));
+
+        gridLayout_6->addWidget(label_14, 6, 0, 1, 1);
+
+        lineEdit_Fy = new QLineEdit(tab_kuka);
+        lineEdit_Fy->setObjectName(QStringLiteral("lineEdit_Fy"));
+
+        gridLayout_6->addWidget(lineEdit_Fy, 2, 1, 1, 1);
+
+        label_11 = new QLabel(tab_kuka);
+        label_11->setObjectName(QStringLiteral("label_11"));
+
+        gridLayout_6->addWidget(label_11, 3, 0, 1, 1);
+
+        lineEdit_My = new QLineEdit(tab_kuka);
+        lineEdit_My->setObjectName(QStringLiteral("lineEdit_My"));
+
+        gridLayout_6->addWidget(lineEdit_My, 5, 1, 1, 1);
+
+        label_9 = new QLabel(tab_kuka);
+        label_9->setObjectName(QStringLiteral("label_9"));
+
+        gridLayout_6->addWidget(label_9, 1, 0, 1, 1);
+
+        label_13 = new QLabel(tab_kuka);
+        label_13->setObjectName(QStringLiteral("label_13"));
+
+        gridLayout_6->addWidget(label_13, 5, 0, 1, 1);
+
+        label_24 = new QLabel(tab_kuka);
+        label_24->setObjectName(QStringLiteral("label_24"));
+
+        gridLayout_6->addWidget(label_24, 0, 0, 1, 1);
+
+        label_10 = new QLabel(tab_kuka);
+        label_10->setObjectName(QStringLiteral("label_10"));
+
+        gridLayout_6->addWidget(label_10, 2, 0, 1, 1);
+
+        lineEdit_Fx = new QLineEdit(tab_kuka);
+        lineEdit_Fx->setObjectName(QStringLiteral("lineEdit_Fx"));
+
+        gridLayout_6->addWidget(lineEdit_Fx, 1, 1, 1, 1);
+
+
+        gridLayout_3->addLayout(gridLayout_6, 1, 2, 1, 1);
 
         tab_manager->addTab(tab_kuka, QString());
 
@@ -570,7 +554,6 @@ public:
 
         menubar->addAction(menu_File->menuAction());
         menu_File->addSeparator();
-        menu_File->addAction(actionAbout_Qt);
         menu_File->addSeparator();
         menu_File->addAction(actionAbout);
         menu_File->addAction(action_Quit);
@@ -613,34 +596,11 @@ public:
         action_Quit->setShortcut(QApplication::translate("MainWindowDesign", "Ctrl+Q", Q_NULLPTR));
 #endif // QT_NO_SHORTCUT
         actionAbout->setText(QApplication::translate("MainWindowDesign", "&About", Q_NULLPTR));
-        actionAbout_Qt->setText(QApplication::translate("MainWindowDesign", "About &Qt", Q_NULLPTR));
         label_4->setText(QApplication::translate("MainWindowDesign", "\344\270\262\345\217\243\345\217\267\357\274\232", Q_NULLPTR));
-        btnSearchPort->setText(QApplication::translate("MainWindowDesign", "\346\220\234\347\264\242\344\270\262\345\217\243", Q_NULLPTR));
         btnOpenSerial->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\344\270\262\345\217\243", Q_NULLPTR));
-        btnStartGetSerial->setText(QApplication::translate("MainWindowDesign", "\345\274\200\345\247\213\351\207\207\351\233\206", Q_NULLPTR));
         btnStopGetSerial->setText(QApplication::translate("MainWindowDesign", "\345\201\234\346\255\242\351\207\207\351\233\206", Q_NULLPTR));
-        btnHandeye->setText(QApplication::translate("MainWindowDesign", "\346\211\213\347\234\274\346\240\207\345\256\232", Q_NULLPTR));
-        btnCameraCali->setText(QApplication::translate("MainWindowDesign", "\347\233\270\346\234\272\346\240\207\345\256\232", Q_NULLPTR));
-        btnCloseDevice->setText(QApplication::translate("MainWindowDesign", "\345\205\263\351\227\255\347\233\270\346\234\272", Q_NULLPTR));
-        btnOpenDevice->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\347\233\270\346\234\272", Q_NULLPTR));
-        btnSaveImage->setText(QApplication::translate("MainWindowDesign", "\344\277\235\345\255\230\345\233\276\345\203\217", Q_NULLPTR));
-        pushButton->setText(QApplication::translate("MainWindowDesign", "\347\233\256\346\240\207\350\257\206\345\210\253", Q_NULLPTR));
-        pushButton_2->setText(QApplication::translate("MainWindowDesign", "\346\250\241\346\235\277\345\214\271\351\205\215", Q_NULLPTR));
-        label_15->setText(QApplication::translate("MainWindowDesign", "X\357\274\232", Q_NULLPTR));
-        label_16->setText(QApplication::translate("MainWindowDesign", "Y\357\274\232", Q_NULLPTR));
-        label_17->setText(QApplication::translate("MainWindowDesign", "Z\357\274\232", Q_NULLPTR));
-        label_18->setText(QApplication::translate("MainWindowDesign", "A\357\274\232", Q_NULLPTR));
-        label_19->setText(QApplication::translate("MainWindowDesign", "B\357\274\232", Q_NULLPTR));
-        label_20->setText(QApplication::translate("MainWindowDesign", "C\357\274\232", Q_NULLPTR));
-        label_25->setText(QApplication::translate("MainWindowDesign", "Kuka\346\234\272\345\231\250\344\272\272\345\275\223\345\211\215\344\275\215\345\247\277\357\274\232", Q_NULLPTR));
-        label_12->setText(QApplication::translate("MainWindowDesign", "Mx\357\274\232", Q_NULLPTR));
-        label_9->setText(QApplication::translate("MainWindowDesign", "Fx\357\274\232", Q_NULLPTR));
-        label_13->setText(QApplication::translate("MainWindowDesign", "My\357\274\232", Q_NULLPTR));
-        label_10->setText(QApplication::translate("MainWindowDesign", "Fy\357\274\232", Q_NULLPTR));
-        label_11->setText(QApplication::translate("MainWindowDesign", "Fz\357\274\232", Q_NULLPTR));
-        label_14->setText(QApplication::translate("MainWindowDesign", "Mz\357\274\232", Q_NULLPTR));
-        label_24->setText(QApplication::translate("MainWindowDesign", "\345\212\233\344\274\240\346\204\237\345\231\250\346\225\260\346\215\256\357\274\232", Q_NULLPTR));
-        labelCamera->setText(QString());
+        btnSearchPort->setText(QApplication::translate("MainWindowDesign", "\346\220\234\347\264\242\344\270\262\345\217\243", Q_NULLPTR));
+        btnStartGetSerial->setText(QApplication::translate("MainWindowDesign", "\345\274\200\345\247\213\351\207\207\351\233\206", Q_NULLPTR));
         label_26->setText(QApplication::translate("MainWindowDesign", "\345\212\233\344\274\240\346\204\237\345\231\250\344\270\262\345\217\243\357\274\232", Q_NULLPTR));
         label_6->setText(QApplication::translate("MainWindowDesign", "X:", Q_NULLPTR));
         label_7->setText(QApplication::translate("MainWindowDesign", "Y:", Q_NULLPTR));
@@ -648,11 +608,33 @@ public:
         label_21->setText(QApplication::translate("MainWindowDesign", "A:", Q_NULLPTR));
         label_22->setText(QApplication::translate("MainWindowDesign", "B:", Q_NULLPTR));
         label_23->setText(QApplication::translate("MainWindowDesign", "C:", Q_NULLPTR));
-        label_5->setText(QApplication::translate("MainWindowDesign", "\347\253\257\345\217\243\345\217\267:", Q_NULLPTR));
+        label_5->setText(QApplication::translate("MainWindowDesign", "\346\234\272\346\242\260\350\207\202\351\200\232\344\277\241\347\253\257\345\217\243\345\217\267:          ", Q_NULLPTR));
         line_port->setText(QApplication::translate("MainWindowDesign", "59152", Q_NULLPTR));
         btnOpenRobot->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\346\234\272\345\231\250\344\272\272\350\277\236\346\216\245", Q_NULLPTR));
         btnCloseRobot->setText(QApplication::translate("MainWindowDesign", "\346\226\255\345\274\200\346\234\272\345\231\250\344\272\272\350\277\236\346\216\245", Q_NULLPTR));
         btnSendPosition->setText(QApplication::translate("MainWindowDesign", "\345\217\221\351\200\201\346\234\272\345\231\250\344\272\272\347\233\256\346\240\207\344\275\215\347\275\256", Q_NULLPTR));
+        btnHandeye->setText(QApplication::translate("MainWindowDesign", "\346\211\213\347\234\274\346\240\207\345\256\232", Q_NULLPTR));
+        btnCameraCali->setText(QApplication::translate("MainWindowDesign", "\347\233\270\346\234\272\346\240\207\345\256\232", Q_NULLPTR));
+        btnCloseDevice->setText(QApplication::translate("MainWindowDesign", "\345\205\263\351\227\255\347\233\270\346\234\272", Q_NULLPTR));
+        btnOpenDevice->setText(QApplication::translate("MainWindowDesign", "\346\211\223\345\274\200\347\233\270\346\234\272", Q_NULLPTR));
+        btnSaveImage->setText(QApplication::translate("MainWindowDesign", "\344\277\235\345\255\230\345\233\276\345\203\217", Q_NULLPTR));
+        btnGoalDIst->setText(QApplication::translate("MainWindowDesign", "\347\233\256\346\240\207\350\257\206\345\210\253", Q_NULLPTR));
+        btnModelMatch->setText(QApplication::translate("MainWindowDesign", "\346\250\241\346\235\277\345\214\271\351\205\215", Q_NULLPTR));
+        labelCamera->setText(QString());
+        label_16->setText(QApplication::translate("MainWindowDesign", "Y\357\274\232", Q_NULLPTR));
+        label_18->setText(QApplication::translate("MainWindowDesign", "A\357\274\232", Q_NULLPTR));
+        label_20->setText(QApplication::translate("MainWindowDesign", "C\357\274\232", Q_NULLPTR));
+        label_19->setText(QApplication::translate("MainWindowDesign", "B\357\274\232", Q_NULLPTR));
+        label_17->setText(QApplication::translate("MainWindowDesign", "Z\357\274\232", Q_NULLPTR));
+        label_15->setText(QApplication::translate("MainWindowDesign", "X\357\274\232", Q_NULLPTR));
+        label_25->setText(QApplication::translate("MainWindowDesign", "\346\234\272\346\242\260\350\207\202\345\275\223\345\211\215\344\275\215\345\247\277\357\274\232", Q_NULLPTR));
+        label_12->setText(QApplication::translate("MainWindowDesign", "Mx\357\274\232", Q_NULLPTR));
+        label_14->setText(QApplication::translate("MainWindowDesign", "Mz\357\274\232", Q_NULLPTR));
+        label_11->setText(QApplication::translate("MainWindowDesign", "Fz\357\274\232", Q_NULLPTR));
+        label_9->setText(QApplication::translate("MainWindowDesign", "Fx\357\274\232", Q_NULLPTR));
+        label_13->setText(QApplication::translate("MainWindowDesign", "My\357\274\232", Q_NULLPTR));
+        label_24->setText(QApplication::translate("MainWindowDesign", "\345\212\233\344\274\240\346\204\237\345\231\250\346\225\260\346\215\256\357\274\232    ", Q_NULLPTR));
+        label_10->setText(QApplication::translate("MainWindowDesign", "Fy\357\274\232", Q_NULLPTR));
         tab_manager->setTabText(tab_manager->indexOf(tab_kuka), QApplication::translate("MainWindowDesign", "Kuka\346\216\247\345\210\266\351\241\265", Q_NULLPTR));
         menu_File->setTitle(QApplication::translate("MainWindowDesign", "\351\200\211\351\241\271", Q_NULLPTR));
     } // retranslateUi
