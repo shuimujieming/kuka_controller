@@ -38,6 +38,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
      myThreadCamera = new MyThread;
      myThreadSerial = new MyThreadSerial;
      myThreadTCP    = new MyThreadTCP;
+     myThreadForce  = new MyThreadForce;
 
      //初始化Image
      myCameraImage = new cv::Mat();
@@ -45,6 +46,9 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
      myRoboTCP = new MyTCP();
      //初始化串口对象
      myserialPort = new MySerialPort();
+
+     myForceTCP   = new MyTCPForce();
+
      //提前搜索一次串口
      OnBtnClickedSearchSerialPort();
 
@@ -597,14 +601,24 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     //根据标签名称对应功能
     if (ui.btnOpenSerial->text() == QString::fromLocal8Bit("打开串口"))
     {
-        if (myserialPort->Open(ui.cbPortName->currentText()) == 0)
+        //TCP通信方式
+        if(myForceTCP->OpenTCP("192.168.1.1",8080) == 0)
+            //串口通信方式
+//        if (myserialPort->Open(ui.cbPortName->currentText()) == 0)
         {
-            //打开串口线程
-            //提供串口指针
-            myThreadSerial->getSerialPtr(myserialPort);
-            myThreadSerial->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
-            myThreadSerial->getFpsPtr(&UpdateFPS);
-            myThreadSerial->start();
+//            //打开TCP线程
+//            //提供TCP指针
+            myThreadForce->getForcePtr(myForceTCP);
+            myThreadForce->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
+            myThreadForce->getFpsPtr(&UpdateFPS);
+            myThreadForce->start();
+
+//            //打开串口线程
+//            //提供串口指针
+//            myThreadSerial->getSerialPtr(myserialPort);
+//            myThreadSerial->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
+//            myThreadSerial->getFpsPtr(&UpdateFPS);
+//            myThreadSerial->start();
 
             QMessageBox::information(this, QString::fromLocal8Bit("提示"), QString::fromLocal8Bit("串口打开成功"), QMessageBox::Ok, QMessageBox::NoButton);
             ui.btnOpenSerial->setText(QString::fromLocal8Bit("关闭串口"));
@@ -618,9 +632,11 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     }
     else
     {
-        //关闭串口和串口数据线程
-        myserialPort->Close();
-        myThreadSerial->terminate();
+        myForceTCP->CloseTCP();
+        myThreadForce->terminate();
+//        //关闭串口和串口数据线程
+//        myserialPort->Close();
+//        myThreadSerial->terminate();
 
         ui.btnOpenSerial->setText(QString::fromLocal8Bit("打开串口"));
         ui.btnStartGetSerial->setEnabled(false);
@@ -630,13 +646,17 @@ void MainWindow::OnBtnClickedOpenSerialPort()
 //开启采集数据按钮槽函数
 void MainWindow::OnBtnClickedStartGetSerialPort()
 {
-    myserialPort->startGrab();
+    myForceTCP->startGrab();
+
+//    myserialPort->startGrab();
     UpdateFpsTimer->start(25);
 }
 //停止采集数据按钮槽函数
 void MainWindow::OnBtnClickedStopGetSerialPort()
 {
-    myserialPort->stopGrab();
+    myForceTCP->stopGrab();
+
+//    myserialPort->stopGrab();
     UpdateFpsTimer->stop();
 }
 //数据FPS更新显示

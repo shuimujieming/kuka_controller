@@ -20,9 +20,19 @@
 
 /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCP.cpp
 
+/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp
+
 /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThread.cpp
 ../../../../src/kuka_controller/include/kuka_controller/MyThread.h
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThread.h
+QtCore/qbytearray.h
+-
+QtCore/qmetatype.h
+-
+
+/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp
+../../../../src/kuka_controller/include/kuka_controller/MyThreadForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadForce.h
 QtCore/qbytearray.h
 -
 QtCore/qmetatype.h
@@ -121,6 +131,20 @@ ros/message_operations.h
 -
 
 /home/shuimujieming/catkin_ws/devel/include/kuka_controller/KukaControlResponse.h
+string
+-
+vector
+-
+map
+-
+ros/types.h
+-
+ros/serialization.h
+-
+ros/builtin_message_traits.h
+-
+ros/message_operations.h
+-
 
 /home/shuimujieming/catkin_ws/devel/include/kuka_controller/PositionData.h
 string
@@ -180,6 +204,14 @@ iostream
 sstream
 -
 
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCPForce.h
+QtNetwork/qtcpsocket.h
+-
+iostream
+-
+sstream
+-
+
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThread.h
 QThread
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/QThread
@@ -209,6 +241,16 @@ stdlib.h
 -
 ctype.h
 -
+
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadForce.h
+QThread
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/QThread
+iostream
+-
+sstream
+-
+MyTCPForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCPForce.h
 
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadSerial.h
 QThread
@@ -291,6 +333,10 @@ MyThreadSerial.h
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadSerial.h
 MyThreadTCP.h
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadTCP.h
+MyTCPForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCPForce.h
+MyThreadForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadForce.h
 
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/positionnode.h
 ros/ros.h
@@ -318,9 +364,17 @@ opencv2/imgproc/types_c.h
 ../include/kuka_controller/MyTCP.h
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCP.h
 
+/home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCPForce.cpp
+../include/kuka_controller/MyTCPForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCPForce.h
+
 /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThread.cpp
 ../include/kuka_controller/MyThread.h
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThread.h
+
+/home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadForce.cpp
+../include/kuka_controller/MyThreadForce.h
+/home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadForce.h
 
 /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadSerial.cpp
 ../include/kuka_controller/MyThreadSerial.h

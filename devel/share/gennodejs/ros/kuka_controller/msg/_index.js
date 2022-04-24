@@ -1,10 +1,10 @@
 
 "use strict";
 
-let ForceData = require('./ForceData.js');
 let PositionData = require('./PositionData.js');
+let ForceData = require('./ForceData.js');
 
 module.exports = {
-  ForceData: ForceData,
   PositionData: PositionData,
+  ForceData: ForceData,
 };

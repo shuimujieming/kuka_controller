@@ -10,6 +10,9 @@
 #include <sstream>
 #include <kuka_controller/controlnode.h>
 
+//机械臂控制服务端节点
+//接收客户端请求，控制机械臂到达指定坐标
+
 ControlNode::ControlNode(int argc, char** argv ) :
 	init_argc(argc),
 	init_argv(argv)

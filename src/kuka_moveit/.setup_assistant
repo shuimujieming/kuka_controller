@@ -1,0 +1,11 @@
+moveit_setup_assistant_config:
+  URDF:
+    package: kr16
+    relative_path: urdf/kr16.urdf
+    xacro_args: ""
+  SRDF:
+    relative_path: config/kr16.srdf
+  CONFIG:
+    author_name: shuimujieming
+    author_email: 2043444162@qq.com
+    generated_timestamp: 1650028033

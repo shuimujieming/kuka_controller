@@ -86,18 +86,17 @@ file(GLOB_RECURSE QT_SOURCES RELATIVE ${CMAKE_CURRENT_SOURCE_DIR} FOLLOW_SYMLINK
 # Binaries
 ##############################################################################
 
+#include_directories(${MVCAM_SDK_PATH}/include)
+#link_directories(${MVCAM_COMMON_RUNENV})# 指定海康sdk的lib目录
+#link_libraries("/opt/MVS/lib/64/libMvCameraControl.so")
+
 add_executable(kuka_controller ${QT_SOURCES} ${QT_RESOURCES_CPP} ${QT_FORMS_HPP} ${QT_MOC_HPP} )
 
 target_link_libraries(kuka_controller ${QT_LIBRARIES} ${catkin_LIBRARIES})
 target_link_libraries(kuka_controller ${OpenCV_LIBS})
 
-#include_directories(${MVCAM_SDK_PATH}/include)
-#link_directories(${MVCAM_SDK_PATH}/bin /
-#    ${MVCAM_COMMON_RUNENV}/64)       # 指定海康sdk的lib目录
-#test
 
-target_link_libraries(kuka_controller MvCameraControl)
-
+target_link_libraries(kuka_controller -lMvCameraControl)
 
 install(TARGETS kuka_controller RUNTIME DESTINATION ${CATKIN_PACKAGE_BIN_DESTINATION})
 

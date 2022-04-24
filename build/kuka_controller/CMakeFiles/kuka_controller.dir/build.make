@@ -98,37 +98,45 @@ kuka_controller/include/kuka_controller/moc_MyTCP.cpp: /home/shuimujieming/catki
 	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_10) "Generating include/kuka_controller/moc_MyTCP.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCP.cpp_parameters
 
+kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyTCPForce.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/kuka_controller/moc_MyTCPForce.cpp"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp_parameters
+
 kuka_controller/include/kuka_controller/moc_MyThread.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThread.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_11) "Generating include/kuka_controller/moc_MyThread.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/kuka_controller/moc_MyThread.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThread.cpp_parameters
 
+kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadForce.h
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/kuka_controller/moc_MyThreadForce.cpp"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp_parameters
+
 kuka_controller/include/kuka_controller/moc_MyThreadSerial.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadSerial.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_12) "Generating include/kuka_controller/moc_MyThreadSerial.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating include/kuka_controller/moc_MyThreadSerial.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadSerial.cpp_parameters
 
 kuka_controller/include/kuka_controller/moc_MyThreadTCP.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThreadTCP.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_13) "Generating include/kuka_controller/moc_MyThreadTCP.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating include/kuka_controller/moc_MyThreadTCP.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadTCP.cpp_parameters
 
 kuka_controller/include/kuka_controller/moc_PixelType.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/PixelType.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_14) "Generating include/kuka_controller/moc_PixelType.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating include/kuka_controller/moc_PixelType.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_PixelType.cpp_parameters
 
 kuka_controller/include/kuka_controller/moc_controlnode.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/controlnode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_15) "Generating include/kuka_controller/moc_controlnode.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating include/kuka_controller/moc_controlnode.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_controlnode.cpp_parameters
 
 kuka_controller/include/kuka_controller/moc_forcedatanode.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/forcedatanode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_16) "Generating include/kuka_controller/moc_forcedatanode.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Generating include/kuka_controller/moc_forcedatanode.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_forcedatanode.cpp_parameters
 
 kuka_controller/include/kuka_controller/moc_positionnode.cpp: /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/positionnode.h
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_17) "Generating include/kuka_controller/moc_positionnode.cpp"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --blue --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Generating include/kuka_controller/moc_positionnode.cpp"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller && /usr/lib/qt5/bin/moc @/home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_positionnode.cpp_parameters
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MvCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_18) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MvCamera.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.i: cmake_force
@@ -152,7 +160,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o.provides.build
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MySerialPort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_19) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MySerialPort.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.i: cmake_force
@@ -176,7 +184,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o.provides.b
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_20) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCP.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.i: cmake_force
@@ -198,9 +206,33 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o.provides: kuka_co
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o
 
 
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCPForce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCPForce.cpp
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.i"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCPForce.cpp > CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.i
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.s"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyTCPForce.cpp -o CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.s
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.requires:
+
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.requires
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.provides: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.requires
+	$(MAKE) -f kuka_controller/CMakeFiles/kuka_controller.dir/build.make kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.provides.build
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.provides
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o
+
+
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_21) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThread.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.i: cmake_force
@@ -222,9 +254,33 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o.provides: kuka
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o
 
 
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadForce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadForce.cpp
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.i"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadForce.cpp > CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.i
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.s"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadForce.cpp -o CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.s
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.requires:
+
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.requires
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.provides: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.requires
+	$(MAKE) -f kuka_controller/CMakeFiles/kuka_controller.dir/build.make kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.provides.build
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.provides
+
+kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o
+
+
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_22) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadSerial.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.i: cmake_force
@@ -248,7 +304,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o.provides
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_23) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/MyThreadTCP.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.i: cmake_force
@@ -272,7 +328,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o.provides.bu
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/controlnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_24) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/controlnode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.i: cmake_force
@@ -296,7 +352,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o.provides.bu
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/forcedatanode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_25) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/forcedatanode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.i: cmake_force
@@ -320,7 +376,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/forcedatanode.cpp.o.provides.
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/main.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_26) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/main.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/main.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.i: cmake_force
@@ -344,7 +400,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main.cpp.o.provides.build: ku
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_27) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/main_window.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/main_window.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.i: cmake_force
@@ -368,7 +424,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/main_window.cpp.o.provides.bu
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o: /home/shuimujieming/catkin_ws/src/kuka_controller/src/positionnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_28) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o -c /home/shuimujieming/catkin_ws/src/kuka_controller/src/positionnode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.i: cmake_force
@@ -392,7 +448,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/src/positionnode.cpp.o.provides.b
 
 kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.o: kuka_controller/qrc_images.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_29) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/qrc_images.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/qrc_images.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.i: cmake_force
@@ -416,7 +472,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/qrc_images.cpp.o.provides.build: 
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o: kuka_controller/include/kuka_controller/moc_main_window.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_30) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_main_window.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_window.cpp.i: cmake_force
@@ -440,7 +496,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_main_
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.o: kuka_controller/include/kuka_controller/moc_CameraParams.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_31) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_CameraParams.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_CameraParams.cpp.i: cmake_force
@@ -464,7 +520,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_Camer
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.o: kuka_controller/include/kuka_controller/moc_MvCamera.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_32) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MvCamera.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCamera.cpp.i: cmake_force
@@ -488,7 +544,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCam
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.o: kuka_controller/include/kuka_controller/moc_MvCameraControl.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_33) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MvCameraControl.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCameraControl.cpp.i: cmake_force
@@ -512,7 +568,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvCam
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.o: kuka_controller/include/kuka_controller/moc_MvErrorDefine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_34) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MvErrorDefine.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErrorDefine.cpp.i: cmake_force
@@ -536,7 +592,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvErr
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o: kuka_controller/include/kuka_controller/moc_MvISPErrorDefine.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_35) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MvISPErrorDefine.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.i: cmake_force
@@ -560,7 +616,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISP
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o: kuka_controller/include/kuka_controller/moc_MySerialPort.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_36) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MySerialPort.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.i: cmake_force
@@ -584,7 +640,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySer
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o: kuka_controller/include/kuka_controller/moc_MyTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_37) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCP.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.i: cmake_force
@@ -606,9 +662,33 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o
 
 
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o: kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.i"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp > CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.i
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.s"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.s
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.requires:
+
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.requires
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.provides: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.requires
+	$(MAKE) -f kuka_controller/CMakeFiles/kuka_controller.dir/build.make kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.provides.build
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.provides
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o
+
+
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o: kuka_controller/include/kuka_controller/moc_MyThread.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_38) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThread.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.i: cmake_force
@@ -630,9 +710,33 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThr
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o
 
 
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o: kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.i: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Preprocessing CXX source to CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.i"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -E /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp > CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.i
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.s: cmake_force
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green "Compiling CXX source to assembly CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.s"
+	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++ $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -S /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.s
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.requires:
+
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.requires
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.provides: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.requires
+	$(MAKE) -f kuka_controller/CMakeFiles/kuka_controller.dir/build.make kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.provides.build
+.PHONY : kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.provides
+
+kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.provides.build: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o
+
+
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o: kuka_controller/include/kuka_controller/moc_MyThreadSerial.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_39) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadSerial.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.i: cmake_force
@@ -656,7 +760,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThr
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o: kuka_controller/include/kuka_controller/moc_MyThreadTCP.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_40) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_46) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_MyThreadTCP.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.i: cmake_force
@@ -680,7 +784,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThr
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o: kuka_controller/include/kuka_controller/moc_PixelType.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_41) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_47) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_PixelType.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.i: cmake_force
@@ -704,7 +808,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_Pixel
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.o: kuka_controller/include/kuka_controller/moc_controlnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_42) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_48) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_controlnode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_controlnode.cpp.i: cmake_force
@@ -728,7 +832,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_contr
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.o: kuka_controller/include/kuka_controller/moc_forcedatanode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_43) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_49) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_forcedatanode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_forcedatanode.cpp.i: cmake_force
@@ -752,7 +856,7 @@ kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_force
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.o: kuka_controller/CMakeFiles/kuka_controller.dir/flags.make
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.o: kuka_controller/include/kuka_controller/moc_positionnode.cpp
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_44) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.o"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_50) "Building CXX object kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.o"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && /usr/bin/c++  $(CXX_DEFINES) $(CXX_INCLUDES) $(CXX_FLAGS) -o CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.o -c /home/shuimujieming/catkin_ws/build/kuka_controller/include/kuka_controller/moc_positionnode.cpp
 
 kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_positionnode.cpp.i: cmake_force
@@ -779,7 +883,9 @@ kuka_controller_OBJECTS = \
 "CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o" \
+"CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o" \
+"CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o" \
 "CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o" \
@@ -796,7 +902,9 @@ kuka_controller_OBJECTS = \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o" \
+"CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o" \
+"CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o" \
 "CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o" \
@@ -810,7 +918,9 @@ kuka_controller_EXTERNAL_OBJECTS =
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o
+/home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o
+/home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o
@@ -827,7 +937,9 @@ kuka_controller_EXTERNAL_OBJECTS =
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o
+/home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o
+/home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o
@@ -909,7 +1021,7 @@ kuka_controller_EXTERNAL_OBJECTS =
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: /usr/local/lib/libopencv_imgproc.so.4.1.1
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: /usr/local/lib/libopencv_core.so.4.1.1
 /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller: kuka_controller/CMakeFiles/kuka_controller.dir/link.txt
-	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_45) "Linking CXX executable /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller"
+	@$(CMAKE_COMMAND) -E cmake_echo_color --switch=$(COLOR) --green --bold --progress-dir=/home/shuimujieming/catkin_ws/build/CMakeFiles --progress-num=$(CMAKE_PROGRESS_51) "Linking CXX executable /home/shuimujieming/catkin_ws/devel/lib/kuka_controller/kuka_controller"
 	cd /home/shuimujieming/catkin_ws/build/kuka_controller && $(CMAKE_COMMAND) -E cmake_link_script CMakeFiles/kuka_controller.dir/link.txt --verbose=$(VERBOSE)
 
 # Rule to build all files generated by this target.
@@ -920,7 +1032,9 @@ kuka_controller/CMakeFiles/kuka_controller.dir/build: /home/shuimujieming/catkin
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MvCamera.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MySerialPort.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCP.cpp.o.requires
+kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyTCPForce.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThread.cpp.o.requires
+kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadForce.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadSerial.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/MyThreadTCP.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/src/controlnode.cpp.o.requires
@@ -937,7 +1051,9 @@ kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFi
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MvISPErrorDefine.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MySerialPort.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCP.cpp.o.requires
+kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyTCPForce.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThread.cpp.o.requires
+kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadForce.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadSerial.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_MyThreadTCP.cpp.o.requires
 kuka_controller/CMakeFiles/kuka_controller.dir/requires: kuka_controller/CMakeFiles/kuka_controller.dir/include/kuka_controller/moc_PixelType.cpp.o.requires
@@ -961,7 +1077,9 @@ kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/k
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MvISPErrorDefine.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MySerialPort.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyTCP.cpp
+kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyTCPForce.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyThread.cpp
+kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyThreadForce.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyThreadSerial.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_MyThreadTCP.cpp
 kuka_controller/CMakeFiles/kuka_controller.dir/depend: kuka_controller/include/kuka_controller/moc_PixelType.cpp

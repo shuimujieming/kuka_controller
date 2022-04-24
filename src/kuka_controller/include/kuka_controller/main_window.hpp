@@ -25,6 +25,8 @@
 #include "MySerialPort.h"
 #include "MyThreadSerial.h"
 #include "MyThreadTCP.h"
+#include "MyTCPForce.h"
+#include "MyThreadForce.h"
 
 /*****************************************************************************
 ** Interface [MainWindow]
@@ -62,11 +64,15 @@ private:
     double Fx, Fy, Fz, Mx, My, Mz;
 
     MyThread* myThreadCamera = NULL;
+
+    MySerialPort* myserialPort = NULL;
     MyThreadSerial* myThreadSerial = NULL;
     MyTCP* myRoboTCP = NULL;
     MyThreadTCP* myThreadTCP = NULL;
+    MyTCPForce* myForceTCP = NULL;
+    MyThreadForce* myThreadForce = NULL;
 
-    MySerialPort* myserialPort = NULL;
+
     int UpdateFPS = 0;
 public:
     void ConnectInit();

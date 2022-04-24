@@ -1,2 +1,2 @@
-kuka_controller
+bingda_tutorials:kr16:kuka_controller:kuka_moveit
 -DCATKIN_DEVEL_PREFIX=/home/shuimujieming/catkin_ws/devel -DCMAKE_INSTALL_PREFIX=/home/shuimujieming/catkin_ws/install -G Unix Makefiles

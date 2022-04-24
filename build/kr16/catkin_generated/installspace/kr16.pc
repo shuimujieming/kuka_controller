@@ -1,0 +1,8 @@
+prefix=/home/shuimujieming/catkin_ws/install
+
+Name: kr16
+Description: Description of kr16
+Version: 1.0.0
+Cflags: 
+Libs: -L${prefix}/lib 
+Requires: 

@@ -1,22 +1,22 @@
 Determining if the pthread_create exist failed with the following output:
 Change Dir: /home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_ee354/fast"
-/usr/bin/make -f CMakeFiles/cmTC_ee354.dir/build.make CMakeFiles/cmTC_ee354.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_cb54d/fast"
+/usr/bin/make -f CMakeFiles/cmTC_cb54d.dir/build.make CMakeFiles/cmTC_cb54d.dir/build
 make[1]: 进入目录“/home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_ee354.dir/CheckSymbolExists.c.o
-/usr/bin/cc    -o CMakeFiles/cmTC_ee354.dir/CheckSymbolExists.c.o   -c /home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
-Linking C executable cmTC_ee354
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_ee354.dir/link.txt --verbose=1
-/usr/bin/cc      -rdynamic CMakeFiles/cmTC_ee354.dir/CheckSymbolExists.c.o  -o cmTC_ee354 
-CMakeFiles/cmTC_ee354.dir/CheckSymbolExists.c.o：在函数‘main’中：
+Building C object CMakeFiles/cmTC_cb54d.dir/CheckSymbolExists.c.o
+/usr/bin/cc    -o CMakeFiles/cmTC_cb54d.dir/CheckSymbolExists.c.o   -c /home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c
+Linking C executable cmTC_cb54d
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_cb54d.dir/link.txt --verbose=1
+/usr/bin/cc      -rdynamic CMakeFiles/cmTC_cb54d.dir/CheckSymbolExists.c.o  -o cmTC_cb54d 
+CMakeFiles/cmTC_cb54d.dir/CheckSymbolExists.c.o：在函数‘main’中：
 CheckSymbolExists.c:(.text+0x1b)：对‘pthread_create’未定义的引用
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_ee354.dir/build.make:97: recipe for target 'cmTC_ee354' failed
-make[1]: *** [cmTC_ee354] Error 1
+CMakeFiles/cmTC_cb54d.dir/build.make:97: recipe for target 'cmTC_cb54d' failed
+make[1]: *** [cmTC_cb54d] Error 1
 make[1]: 离开目录“/home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_ee354/fast' failed
-make: *** [cmTC_ee354/fast] Error 2
+Makefile:126: recipe for target 'cmTC_cb54d/fast' failed
+make: *** [cmTC_cb54d/fast] Error 2
 
 File /home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp/CheckSymbolExists.c:
 /* */
@@ -36,20 +36,20 @@ int main(int argc, char** argv)
 Determining if the function pthread_create exists in the pthreads failed with the following output:
 Change Dir: /home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp
 
-Run Build Command:"/usr/bin/make" "cmTC_abbde/fast"
-/usr/bin/make -f CMakeFiles/cmTC_abbde.dir/build.make CMakeFiles/cmTC_abbde.dir/build
+Run Build Command:"/usr/bin/make" "cmTC_c96e6/fast"
+/usr/bin/make -f CMakeFiles/cmTC_c96e6.dir/build.make CMakeFiles/cmTC_c96e6.dir/build
 make[1]: 进入目录“/home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp”
-Building C object CMakeFiles/cmTC_abbde.dir/CheckFunctionExists.c.o
-/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_abbde.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
-Linking C executable cmTC_abbde
-/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_abbde.dir/link.txt --verbose=1
-/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_abbde.dir/CheckFunctionExists.c.o  -o cmTC_abbde -lpthreads 
+Building C object CMakeFiles/cmTC_c96e6.dir/CheckFunctionExists.c.o
+/usr/bin/cc   -DCHECK_FUNCTION_EXISTS=pthread_create   -o CMakeFiles/cmTC_c96e6.dir/CheckFunctionExists.c.o   -c /usr/share/cmake-3.10/Modules/CheckFunctionExists.c
+Linking C executable cmTC_c96e6
+/usr/bin/cmake -E cmake_link_script CMakeFiles/cmTC_c96e6.dir/link.txt --verbose=1
+/usr/bin/cc  -DCHECK_FUNCTION_EXISTS=pthread_create    -rdynamic CMakeFiles/cmTC_c96e6.dir/CheckFunctionExists.c.o  -o cmTC_c96e6 -lpthreads 
 /usr/bin/ld: 找不到 -lpthreads
 collect2: error: ld returned 1 exit status
-CMakeFiles/cmTC_abbde.dir/build.make:97: recipe for target 'cmTC_abbde' failed
-make[1]: *** [cmTC_abbde] Error 1
+CMakeFiles/cmTC_c96e6.dir/build.make:97: recipe for target 'cmTC_c96e6' failed
+make[1]: *** [cmTC_c96e6] Error 1
 make[1]: 离开目录“/home/shuimujieming/catkin_ws/build/CMakeFiles/CMakeTmp”
-Makefile:126: recipe for target 'cmTC_abbde/fast' failed
-make: *** [cmTC_abbde/fast] Error 2
+Makefile:126: recipe for target 'cmTC_c96e6/fast' failed
+make: *** [cmTC_c96e6/fast] Error 2
 
 

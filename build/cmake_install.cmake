@@ -131,6 +131,9 @@ endif()
 if(NOT CMAKE_INSTALL_LOCAL_ONLY)
   # Include the install script for each subdirectory.
   include("/home/shuimujieming/catkin_ws/build/gtest/cmake_install.cmake")
+  include("/home/shuimujieming/catkin_ws/build/kuka_moveit/cmake_install.cmake")
+  include("/home/shuimujieming/catkin_ws/build/bingda_tutorials/cmake_install.cmake")
+  include("/home/shuimujieming/catkin_ws/build/kr16/cmake_install.cmake")
   include("/home/shuimujieming/catkin_ws/build/kuka_controller/cmake_install.cmake")
 
 endif()
