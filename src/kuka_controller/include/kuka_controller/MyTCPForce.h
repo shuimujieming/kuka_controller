@@ -3,6 +3,9 @@
 #include <QtNetwork/qtcpsocket.h>
 #include <iostream>
 #include <sstream>
+
+#include <QMessageBox>
+
 using namespace std;
 
 class MyTCPForce

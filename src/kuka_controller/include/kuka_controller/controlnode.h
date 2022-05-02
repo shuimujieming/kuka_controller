@@ -29,6 +29,7 @@ public:
 
 signals:
         void rosShutdown();
+        void sendRobot(float x,float y,float z,float a,float b,float c);
 private:
 	int init_argc;
 	char** init_argv;

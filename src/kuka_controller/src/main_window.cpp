@@ -16,12 +16,14 @@
 #include <iostream>
 #include "../include/kuka_controller/main_window.hpp"
 
+
 using namespace Qt;
 using namespace std;
 /*****************************************************************************
 ** Implementation [MainWindow]
 *****************************************************************************/
 
+//
 MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
     : QMainWindow(parent)
     , controlnode(argc,argv)
@@ -36,7 +38,6 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
 
      //线程实例化
      myThreadCamera = new MyThread;
-     myThreadSerial = new MyThreadSerial;
      myThreadTCP    = new MyThreadTCP;
      myThreadForce  = new MyThreadForce;
 
@@ -44,9 +45,7 @@ MainWindow::MainWindow(int argc, char** argv, QWidget *parent)
      myCameraImage = new cv::Mat();
      //初始化TCP成员
      myRoboTCP = new MyTCP();
-     //初始化串口对象
-     myserialPort = new MySerialPort();
-
+     //
      myForceTCP   = new MyTCPForce();
 
      //提前搜索一次串口
@@ -79,7 +78,7 @@ void MainWindow::ConnectInit()
     //查看当前版本qt库
     //connect(ui.actionAbout_Qt, SIGNAL(triggered(bool)), qApp, SLOT(aboutQt())); // qApp is a global variable for the application
     //关联机械臂控制节点槽函数
-    //connect(&controlnode, SIGNAL(sendRobot(float,float,float,float,float,float)), this, SLOT(ctrlRobot(float,float,float,float,float,float)));
+    connect(&controlnode, SIGNAL(sendRobot(float,float,float,float,float,float)), this, SLOT(ctrlRobot(float,float,float,float,float,float)));
     //数据更新显示
     connect(timerShow, SIGNAL(timeout()), this, SLOT(OnUIShowUpdate()));
     //数据更新FPS
@@ -359,6 +358,10 @@ int MainWindow::SendPosition()
     return 0;
 }
 
+void MainWindow::ctrlRobot(float x,float y, float z,float a,float b,float c)
+{
+    myRoboTCP->CtrlRobot(x,y,z,a,b,c);
+}
 
 //发送机器人目标位置按钮槽函数
 void MainWindow::OnBtnClickedSendPosition()
@@ -386,7 +389,7 @@ void MainWindow::OnServerNewConnection()
 
         myThreadTCP->getTCPPtr(myRoboTCP);
         myThreadTCP->getPositionPtr(&X,&Y,&Z,&A,&B,&C);
-        myThreadTCP->start();
+//        myThreadTCP->start();
 
         connect(myRoboTCP->MyTCPSocket, SIGNAL(disconnected()), this, SLOT(OnServerDisConnection()));
     }
@@ -602,23 +605,13 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     if (ui.btnOpenSerial->text() == QString::fromLocal8Bit("打开串口"))
     {
         //TCP通信方式
-        if(myForceTCP->OpenTCP("192.168.1.1",8080) == 0)
-            //串口通信方式
-//        if (myserialPort->Open(ui.cbPortName->currentText()) == 0)
+        if(myForceTCP->OpenTCP("192.168.1.66",8080) == 0)
         {
-//            //打开TCP线程
-//            //提供TCP指针
+            //打开TCP线程 提供TCP指针
             myThreadForce->getForcePtr(myForceTCP);
             myThreadForce->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
             myThreadForce->getFpsPtr(&UpdateFPS);
             myThreadForce->start();
-
-//            //打开串口线程
-//            //提供串口指针
-//            myThreadSerial->getSerialPtr(myserialPort);
-//            myThreadSerial->getForcePtr(&Fx,&Fy,&Fz,&Mx,&My,&Mz);
-//            myThreadSerial->getFpsPtr(&UpdateFPS);
-//            myThreadSerial->start();
 
             QMessageBox::information(this, QString::fromLocal8Bit("提示"), QString::fromLocal8Bit("串口打开成功"), QMessageBox::Ok, QMessageBox::NoButton);
             ui.btnOpenSerial->setText(QString::fromLocal8Bit("关闭串口"));
@@ -633,10 +626,8 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     else
     {
         myForceTCP->CloseTCP();
-        myThreadForce->terminate();
-//        //关闭串口和串口数据线程
-//        myserialPort->Close();
-//        myThreadSerial->terminate();
+        //myThreadForce->terminate();
+
 
         ui.btnOpenSerial->setText(QString::fromLocal8Bit("打开串口"));
         ui.btnStartGetSerial->setEnabled(false);
@@ -647,23 +638,19 @@ void MainWindow::OnBtnClickedOpenSerialPort()
 void MainWindow::OnBtnClickedStartGetSerialPort()
 {
     myForceTCP->startGrab();
-
-//    myserialPort->startGrab();
-    UpdateFpsTimer->start(25);
+    UpdateFpsTimer->start(1000);
 }
 //停止采集数据按钮槽函数
 void MainWindow::OnBtnClickedStopGetSerialPort()
 {
     myForceTCP->stopGrab();
-
-//    myserialPort->stopGrab();
     UpdateFpsTimer->stop();
 }
 //数据FPS更新显示
 void MainWindow::OnUpdateDataFps()
 {
-    UpdateFPS = 0;
     cout<<"ForceData Update Fps is : "<<UpdateFPS << endl;
+    UpdateFPS = 0;
 }
 //更新UI界面机器人数据
 void MainWindow::OnUIShowUpdate()

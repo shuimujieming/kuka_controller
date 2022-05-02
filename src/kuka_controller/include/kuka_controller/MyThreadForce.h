@@ -17,7 +17,7 @@ public:
 
     void getFpsPtr(int* ptr);
 
-	void run();
+    void run();
     void getForcePtr(MyTCPForce* force);
     void getForcePtr(double* x, double*y, double*z, double*mx, double*my, double*mz);
     //传感器数据采集FIFO变量

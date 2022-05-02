@@ -211,6 +211,8 @@ iostream
 -
 sstream
 -
+QMessageBox
+-
 
 /home/shuimujieming/catkin_ws/src/kuka_controller/include/kuka_controller/MyThread.h
 QThread

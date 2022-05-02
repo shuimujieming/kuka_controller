@@ -21,8 +21,8 @@ QT_BEGIN_MOC_NAMESPACE
 QT_WARNING_PUSH
 QT_WARNING_DISABLE_DEPRECATED
 struct qt_meta_stringdata_MainWindow_t {
-    QByteArrayData data[34];
-    char stringdata0[696];
+    QByteArrayData data[41];
+    char stringdata0[718];
 };
 #define QT_MOC_LITERAL(idx, ofs, len) \
     Q_STATIC_BYTE_ARRAY_DATA_HEADER_INITIALIZER_WITH_OFFSET(len, \
@@ -64,7 +64,14 @@ QT_MOC_LITERAL(29, 577, 26), // "OnBtnClickedOpenSerialPort"
 QT_MOC_LITERAL(30, 604, 30), // "OnBtnClickedStartGetSerialPort"
 QT_MOC_LITERAL(31, 635, 29), // "OnBtnClickedStopGetSerialPort"
 QT_MOC_LITERAL(32, 665, 15), // "OnUpdateDataFps"
-QT_MOC_LITERAL(33, 681, 14) // "OnUIShowUpdate"
+QT_MOC_LITERAL(33, 681, 14), // "OnUIShowUpdate"
+QT_MOC_LITERAL(34, 696, 9), // "ctrlRobot"
+QT_MOC_LITERAL(35, 706, 1), // "x"
+QT_MOC_LITERAL(36, 708, 1), // "y"
+QT_MOC_LITERAL(37, 710, 1), // "z"
+QT_MOC_LITERAL(38, 712, 1), // "a"
+QT_MOC_LITERAL(39, 714, 1), // "b"
+QT_MOC_LITERAL(40, 716, 1) // "c"
 
     },
     "MainWindow\0rosShutdown\0\0"
@@ -85,7 +92,8 @@ QT_MOC_LITERAL(33, 681, 14) // "OnUIShowUpdate"
     "OnBtnClickedOpenSerialPort\0"
     "OnBtnClickedStartGetSerialPort\0"
     "OnBtnClickedStopGetSerialPort\0"
-    "OnUpdateDataFps\0OnUIShowUpdate"
+    "OnUpdateDataFps\0OnUIShowUpdate\0ctrlRobot\0"
+    "x\0y\0z\0a\0b\0c"
 };
 #undef QT_MOC_LITERAL
 
@@ -95,7 +103,7 @@ static const uint qt_meta_data_MainWindow[] = {
        7,       // revision
        0,       // classname
        0,    0, // classinfo
-      29,   14, // methods
+      30,   14, // methods
        0,    0, // properties
        0,    0, // enums/sets
        0,    0, // constructors
@@ -103,37 +111,38 @@ static const uint qt_meta_data_MainWindow[] = {
        1,       // signalCount
 
  // signals: name, argc, parameters, tag, flags
-       1,    0,  159,    2, 0x06 /* Public */,
+       1,    0,  164,    2, 0x06 /* Public */,
 
  // slots: name, argc, parameters, tag, flags
-       3,    0,  160,    2, 0x08 /* Private */,
-       4,    0,  161,    2, 0x08 /* Private */,
-       5,    0,  162,    2, 0x08 /* Private */,
-       6,    0,  163,    2, 0x08 /* Private */,
-       7,    0,  164,    2, 0x08 /* Private */,
-       8,    0,  165,    2, 0x08 /* Private */,
-       9,    0,  166,    2, 0x08 /* Private */,
-      10,    1,  167,    2, 0x08 /* Private */,
-      13,    0,  170,    2, 0x08 /* Private */,
-      14,    0,  171,    2, 0x08 /* Private */,
-      15,    1,  172,    2, 0x08 /* Private */,
-      17,    1,  175,    2, 0x08 /* Private */,
-      18,    1,  178,    2, 0x08 /* Private */,
-      19,    1,  181,    2, 0x08 /* Private */,
-      20,    1,  184,    2, 0x08 /* Private */,
-      21,    1,  187,    2, 0x08 /* Private */,
-      22,    0,  190,    2, 0x08 /* Private */,
-      23,    0,  191,    2, 0x08 /* Private */,
-      24,    0,  192,    2, 0x08 /* Private */,
-      25,    0,  193,    2, 0x08 /* Private */,
-      26,    0,  194,    2, 0x08 /* Private */,
-      27,    0,  195,    2, 0x08 /* Private */,
-      28,    0,  196,    2, 0x08 /* Private */,
-      29,    0,  197,    2, 0x08 /* Private */,
-      30,    0,  198,    2, 0x08 /* Private */,
-      31,    0,  199,    2, 0x08 /* Private */,
-      32,    0,  200,    2, 0x08 /* Private */,
-      33,    0,  201,    2, 0x08 /* Private */,
+       3,    0,  165,    2, 0x08 /* Private */,
+       4,    0,  166,    2, 0x08 /* Private */,
+       5,    0,  167,    2, 0x08 /* Private */,
+       6,    0,  168,    2, 0x08 /* Private */,
+       7,    0,  169,    2, 0x08 /* Private */,
+       8,    0,  170,    2, 0x08 /* Private */,
+       9,    0,  171,    2, 0x08 /* Private */,
+      10,    1,  172,    2, 0x08 /* Private */,
+      13,    0,  175,    2, 0x08 /* Private */,
+      14,    0,  176,    2, 0x08 /* Private */,
+      15,    1,  177,    2, 0x08 /* Private */,
+      17,    1,  180,    2, 0x08 /* Private */,
+      18,    1,  183,    2, 0x08 /* Private */,
+      19,    1,  186,    2, 0x08 /* Private */,
+      20,    1,  189,    2, 0x08 /* Private */,
+      21,    1,  192,    2, 0x08 /* Private */,
+      22,    0,  195,    2, 0x08 /* Private */,
+      23,    0,  196,    2, 0x08 /* Private */,
+      24,    0,  197,    2, 0x08 /* Private */,
+      25,    0,  198,    2, 0x08 /* Private */,
+      26,    0,  199,    2, 0x08 /* Private */,
+      27,    0,  200,    2, 0x08 /* Private */,
+      28,    0,  201,    2, 0x08 /* Private */,
+      29,    0,  202,    2, 0x08 /* Private */,
+      30,    0,  203,    2, 0x08 /* Private */,
+      31,    0,  204,    2, 0x08 /* Private */,
+      32,    0,  205,    2, 0x08 /* Private */,
+      33,    0,  206,    2, 0x08 /* Private */,
+      34,    6,  207,    2, 0x08 /* Private */,
 
  // signals: parameters
     QMetaType::Void,
@@ -167,6 +176,7 @@ static const uint qt_meta_data_MainWindow[] = {
     QMetaType::Void,
     QMetaType::Void,
     QMetaType::Void,
+    QMetaType::Void, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::Float, QMetaType::Float,   35,   36,   37,   38,   39,   40,
 
        0        // eod
 };
@@ -206,6 +216,7 @@ void MainWindow::qt_static_metacall(QObject *_o, QMetaObject::Call _c, int _id, 
         case 26: _t->OnBtnClickedStopGetSerialPort(); break;
         case 27: _t->OnUpdateDataFps(); break;
         case 28: _t->OnUIShowUpdate(); break;
+        case 29: _t->ctrlRobot((*reinterpret_cast< float(*)>(_a[1])),(*reinterpret_cast< float(*)>(_a[2])),(*reinterpret_cast< float(*)>(_a[3])),(*reinterpret_cast< float(*)>(_a[4])),(*reinterpret_cast< float(*)>(_a[5])),(*reinterpret_cast< float(*)>(_a[6]))); break;
         default: ;
         }
     } else if (_c == QMetaObject::IndexOfMethod) {
@@ -245,13 +256,13 @@ int MainWindow::qt_metacall(QMetaObject::Call _c, int _id, void **_a)
     if (_id < 0)
         return _id;
     if (_c == QMetaObject::InvokeMetaMethod) {
-        if (_id < 29)
+        if (_id < 30)
             qt_static_metacall(this, _c, _id, _a);
-        _id -= 29;
+        _id -= 30;
     } else if (_c == QMetaObject::RegisterMethodArgumentMetaType) {
-        if (_id < 29)
+        if (_id < 30)
             *reinterpret_cast<int*>(_a[0]) = -1;
-        _id -= 29;
+        _id -= 30;
     }
     return _id;
 }

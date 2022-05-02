@@ -41,7 +41,7 @@ int MyTCP::CtrlRobot(float x,float y,float z,float a,float b,float c)
 
     string data;
 
-    data = "<Sensor><Read><xyzabc X=\"" + xx.str() + "\" Y=\"" + yy.str() + "\" Z=\"" + zz.str() + "\" A=\"" + aa.str() + "\" B=\"" + bb.str() + "\" C=\"" + cc.str() + "\"></xyzabc></Read><WaitRecv>998</WaitRecv></Sensor>";
+    data = "<Sensor><Read><xyzabc X=\"" + xx.str() + "\" Y=\"" + yy.str() + "\" Z=\"" + zz.str() + "\" A=\"" + aa.str() + "\" B=\"" + bb.str() + "\" C=\"" + cc.str() + "\"></xyzabc>" + "<TargetVel>" + "2.00" +"</TargetVel> " + "</Read><WaitRecv>998</WaitRecv></Sensor>";
 
     if(SendData(data)==-1)
     {
@@ -50,14 +50,14 @@ int MyTCP::CtrlRobot(float x,float y,float z,float a,float b,float c)
     else
     {
         {
-            cout << "发送机械臂目标位置：" << "X = \"" + xx.str() + "\" Y=\"" + yy.str() + "\" Z=\"" + zz.str() + "\" A=\"" + aa.str() + "\" B=\"" + bb.str() + "\" C=\"" + cc.str() << endl;
+            cout << "?????е?????λ???" << "X = \"" + xx.str() + "\" Y=\"" + yy.str() + "\" Z=\"" + zz.str() + "\" A=\"" + aa.str() + "\" B=\"" + bb.str() + "\" C=\"" + cc.str() << endl;
         }
 
         return 0;
     }
 }
 
-//打开TCP，监听
+//????TCP??????
 int MyTCP::OpenTCP(int port)
 {
     if (!MyTCPServer->listen(QHostAddress::Any, port))
@@ -66,7 +66,7 @@ int MyTCP::OpenTCP(int port)
     }
     return 0;
 }
-//关闭TCP，断开TCP连接
+//???TCP?????TCP????
 int MyTCP::CloseTCP()
 {
     if (MyTCPServer != NULL)

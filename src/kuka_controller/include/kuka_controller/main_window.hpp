@@ -124,6 +124,7 @@ private slots:
     void OnUpdateDataFps();
     void OnUIShowUpdate();
 
+    void ctrlRobot(float x,float y,float z,float a,float b,float c);
 signals:
     void rosShutdown();
 };

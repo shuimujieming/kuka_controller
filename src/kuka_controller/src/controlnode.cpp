@@ -49,7 +49,8 @@ bool ControlNode::senddata(kuka_controller::KukaControl::Request  &req,
   }
   else
   {
-      res.ret = tcpPtr->CtrlRobot(req.x,req.y,req.z,req.a,req.b,req.c);
+      sendRobot(req.x,req.y,req.z,req.a,req.b,req.c);
+      //res.ret = tcpPtr->CtrlRobot(req.x,req.y,req.z,req.a,req.b,req.c);
       ROS_INFO("Received success! %f %f %f %f %f %f",req.x,req.y,req.z,req.a,req.b,req.c);
       return true;
   }

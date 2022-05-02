@@ -39,6 +39,7 @@ int MyTCPForce::SendData(string data)
 int MyTCPForce::CloseTCP()
 {
 
+
     if (MyTCPSocket != NULL)
     {
         MyTCPSocket->disconnectFromHost();

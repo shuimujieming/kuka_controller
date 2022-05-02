@@ -71,7 +71,8 @@ void MyThreadTCP::OnServerReadData()
         string a4 = xyzabc.substr(xyzabc.find("<Axis4>") + 7, xyzabc.find("</Axis4>") - xyzabc.find("<Axis4>") - 7);
         string a5 = xyzabc.substr(xyzabc.find("<Axis5>") + 7, xyzabc.find("</Axis5>") - xyzabc.find("<Axis5>") - 7);
         string a6 = xyzabc.substr(xyzabc.find("<Axis6>") + 7, xyzabc.find("</Axis6>") - xyzabc.find("<Axis6>") - 7);
-
+        //velocity
+        string currentVel = xyzabc.substr(xyzabc.find("<CurrentVel>") + 12, xyzabc.find("</CurrentVel>") - xyzabc.find("<CurrentVel>") - 12);
 
         //字符串和数字转换
         double xx, yy, zz, aa, bb, cc;
