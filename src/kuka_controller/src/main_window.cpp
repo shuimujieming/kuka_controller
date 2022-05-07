@@ -605,7 +605,7 @@ void MainWindow::OnBtnClickedOpenSerialPort()
     if (ui.btnOpenSerial->text() == QString::fromLocal8Bit("打开串口"))
     {
         //TCP通信方式
-        if(myForceTCP->OpenTCP("192.168.1.66",8080) == 0)
+        if(myForceTCP->OpenTCP("192.168.1.100",8080) == 0)
         {
             //打开TCP线程 提供TCP指针
             myThreadForce->getForcePtr(myForceTCP);

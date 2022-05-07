@@ -169,6 +169,7 @@ void MyTCPForce::startGrab()
     //16进制
     //连续采集
     QString sendBuf = QString("f6 6f 03 00 00 02 de ec 6f f6");;
+//    QString sendBuf = QString("00 00 00 00 00 06 00 05 05 00 ff 00");;
     //发送串口数据
     sendInfo(sendBuf);
 }
@@ -188,5 +189,6 @@ void MyTCPForce::stopGrab()
     //实测效果不好，去掉延时
     //sleep(100);
     sendBuf = QString("f6 6f 03 00 00 03 ff fc 6f f6");
+//    sendBuf = QString("00 00 00 00 00 06 00 05 05 00 00 00");
     sendInfo(sendBuf);
 }
